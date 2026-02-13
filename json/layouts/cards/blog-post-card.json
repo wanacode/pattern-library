@@ -4,7 +4,7 @@
   "category": "layouts",
   "subcategory": "cards",
   "description": "Blog Post Card pattern",
-  "html": "<article class=\"flex flex-col group\">\n  <a href=\"#\" class=\"block\">\n    <div class=\"overflow-hidden aspect-[16/10] rounded-lg mb-4\">\n      <img src=\"https://images.unsplash.com/photo-1448375240586-dfd8d395ea6c?w=640&fit=crop\"\n           alt=\"Post\"\n           class=\"w-full h-full object-cover transition duration-300 group-hover:scale-[1.02]\"\n           loading=\"lazy\" />\n    </div>\n    <time class=\"text-sm\">Date</time>\n    <h3 class=\"font-bold mt-1 text-lg group-hover:underline\">Post Title</h3>\n    <p class=\"text-sm mt-2 line-clamp-3\">Excerpt</p>\n  </a>\n</article>",
+  "html": "<article class=\"flex flex-col group\">\n  <a href=\"#\" class=\"block\">\n    <div class=\"overflow-hidden aspect-[16/10] rounded-lg mb-4\">\n      <img src=\"https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=640&fit=crop\"\n           alt=\"Post\"\n           class=\"w-full h-full object-cover transition duration-300 group-hover:scale-[1.02]\"\n           loading=\"lazy\" />\n    </div>\n    <time class=\"text-sm\">Date</time>\n    <h3 class=\"font-bold mt-1 text-lg group-hover:underline\">Post Title</h3>\n    <p class=\"text-sm mt-2 line-clamp-3\">Excerpt</p>\n  </a>\n</article>",
   "tags": [
     "cards",
     "layouts"

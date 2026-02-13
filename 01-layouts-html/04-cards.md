@@ -67,7 +67,7 @@
 <article class="flex flex-col group">
   <a href="#" class="block">
     <div class="overflow-hidden aspect-[16/10] rounded-lg mb-4">
-      <img src="https://images.unsplash.com/photo-1448375240586-dfd8d395ea6c?w=640&fit=crop"
+      <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=640&fit=crop"
            alt="Post"
            class="w-full h-full object-cover transition duration-300 group-hover:scale-[1.02]"
            loading="lazy" />
