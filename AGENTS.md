@@ -11,8 +11,14 @@ pnpm install
 # Build the viewer (converts markdown patterns to JSON and generates HTML viewer)
 pnpm run build
 
-# Start local development server
+# Build docs folder only (for GitHub Pages)
+pnpm run build:docs
+
+# Start local development server (serves docs/ folder)
 pnpm run serve
+
+# Start local development server (serves viewer/ folder)
+pnpm run serve:viewer
 
 # Generate screenshots for patterns (requires Playwright browsers)
 pnpm run screenshots
@@ -20,6 +26,15 @@ pnpm run screenshots
 # Deploy to GitHub Pages
 pnpm run deploy
 ```
+
+## GitHub Pages Deployment
+
+The site is deployed to GitHub Pages using GitHub Actions. The workflow:
+1. Builds the project (`pnpm run build`)
+2. Copies files to `/docs` folder
+3. Deploys the docs folder to GitHub Pages
+
+The `/docs` folder is gitignored and generated during CI, so don't commit it manually.
 
 ## Package Manager
 
