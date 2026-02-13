@@ -10,8 +10,8 @@
     "layouts"
   ],
   "screenshots": {
-    "mobile": "screenshots/layouts/sliders/testimonial-slider-mobile.png",
-    "tablet": "screenshots/layouts/sliders/testimonial-slider-tablet.png",
-    "desktop": "screenshots/layouts/sliders/testimonial-slider-desktop.png"
+    "mobile": "screenshots/01-layouts-html/06-sliders-testimonial-slider-mobile.png",
+    "tablet": "screenshots/01-layouts-html/06-sliders-testimonial-slider-tablet.png",
+    "desktop": "screenshots/01-layouts-html/06-sliders-testimonial-slider-desktop.png"
   }
 }

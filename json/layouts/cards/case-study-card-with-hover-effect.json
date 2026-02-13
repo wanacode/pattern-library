@@ -10,8 +10,8 @@
     "layouts"
   ],
   "screenshots": {
-    "mobile": "screenshots/layouts/cards/case-study-card-with-hover-effect-mobile.png",
-    "tablet": "screenshots/layouts/cards/case-study-card-with-hover-effect-tablet.png",
-    "desktop": "screenshots/layouts/cards/case-study-card-with-hover-effect-desktop.png"
+    "mobile": "screenshots/01-layouts-html/04-cards-case-study-card-with-hover-effect-mobile.png",
+    "tablet": "screenshots/01-layouts-html/04-cards-case-study-card-with-hover-effect-tablet.png",
+    "desktop": "screenshots/01-layouts-html/04-cards-case-study-card-with-hover-effect-desktop.png"
   }
 }

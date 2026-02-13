@@ -10,8 +10,8 @@
     "components"
   ],
   "screenshots": {
-    "mobile": "screenshots/components/navigation/footer-menu-mobile.png",
-    "tablet": "screenshots/components/navigation/footer-menu-tablet.png",
-    "desktop": "screenshots/components/navigation/footer-menu-desktop.png"
+    "mobile": "screenshots/02-components-html/02-navigation-footer-menu-mobile.png",
+    "tablet": "screenshots/02-components-html/02-navigation-footer-menu-tablet.png",
+    "desktop": "screenshots/02-components-html/02-navigation-footer-menu-desktop.png"
   }
 }

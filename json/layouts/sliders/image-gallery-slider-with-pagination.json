@@ -10,8 +10,8 @@
     "layouts"
   ],
   "screenshots": {
-    "mobile": "screenshots/layouts/sliders/image-gallery-slider-with-pagination-mobile.png",
-    "tablet": "screenshots/layouts/sliders/image-gallery-slider-with-pagination-tablet.png",
-    "desktop": "screenshots/layouts/sliders/image-gallery-slider-with-pagination-desktop.png"
+    "mobile": "screenshots/01-layouts-html/06-sliders-image-gallery-slider-with-pagination-mobile.png",
+    "tablet": "screenshots/01-layouts-html/06-sliders-image-gallery-slider-with-pagination-tablet.png",
+    "desktop": "screenshots/01-layouts-html/06-sliders-image-gallery-slider-with-pagination-desktop.png"
   }
 }

@@ -10,8 +10,8 @@
     "layouts"
   ],
   "screenshots": {
-    "mobile": "screenshots/layouts/heroes/full-viewport-with-bottom-text-mobile.png",
-    "tablet": "screenshots/layouts/heroes/full-viewport-with-bottom-text-tablet.png",
-    "desktop": "screenshots/layouts/heroes/full-viewport-with-bottom-text-desktop.png"
+    "mobile": "screenshots/01-layouts-html/01-heroes-full-viewport-with-bottom-text-mobile.png",
+    "tablet": "screenshots/01-layouts-html/01-heroes-full-viewport-with-bottom-text-tablet.png",
+    "desktop": "screenshots/01-layouts-html/01-heroes-full-viewport-with-bottom-text-desktop.png"
   }
 }

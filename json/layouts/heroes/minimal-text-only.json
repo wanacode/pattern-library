@@ -10,8 +10,8 @@
     "layouts"
   ],
   "screenshots": {
-    "mobile": "screenshots/layouts/heroes/minimal-text-only-mobile.png",
-    "tablet": "screenshots/layouts/heroes/minimal-text-only-tablet.png",
-    "desktop": "screenshots/layouts/heroes/minimal-text-only-desktop.png"
+    "mobile": "screenshots/01-layouts-html/01-heroes-minimal-text-only-mobile.png",
+    "tablet": "screenshots/01-layouts-html/01-heroes-minimal-text-only-tablet.png",
+    "desktop": "screenshots/01-layouts-html/01-heroes-minimal-text-only-desktop.png"
   }
 }

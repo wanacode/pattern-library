@@ -10,8 +10,8 @@
     "components"
   ],
   "screenshots": {
-    "mobile": "screenshots/components/navigation/sticky-header-with-logo-mobile.png",
-    "tablet": "screenshots/components/navigation/sticky-header-with-logo-tablet.png",
-    "desktop": "screenshots/components/navigation/sticky-header-with-logo-desktop.png"
+    "mobile": "screenshots/02-components-html/02-navigation-sticky-header-with-logo-mobile.png",
+    "tablet": "screenshots/02-components-html/02-navigation-sticky-header-with-logo-tablet.png",
+    "desktop": "screenshots/02-components-html/02-navigation-sticky-header-with-logo-desktop.png"
   }
 }

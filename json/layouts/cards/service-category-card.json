@@ -10,8 +10,8 @@
     "layouts"
   ],
   "screenshots": {
-    "mobile": "screenshots/layouts/cards/service-category-card-mobile.png",
-    "tablet": "screenshots/layouts/cards/service-category-card-tablet.png",
-    "desktop": "screenshots/layouts/cards/service-category-card-desktop.png"
+    "mobile": "screenshots/01-layouts-html/04-cards-service-category-card-mobile.png",
+    "tablet": "screenshots/01-layouts-html/04-cards-service-category-card-tablet.png",
+    "desktop": "screenshots/01-layouts-html/04-cards-service-category-card-desktop.png"
   }
 }

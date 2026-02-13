@@ -10,8 +10,8 @@
     "layouts"
   ],
   "screenshots": {
-    "mobile": "screenshots/layouts/cards/stat-metric-card-mobile.png",
-    "tablet": "screenshots/layouts/cards/stat-metric-card-tablet.png",
-    "desktop": "screenshots/layouts/cards/stat-metric-card-desktop.png"
+    "mobile": "screenshots/01-layouts-html/04-cards-stat-metric-card-mobile.png",
+    "tablet": "screenshots/01-layouts-html/04-cards-stat-metric-card-tablet.png",
+    "desktop": "screenshots/01-layouts-html/04-cards-stat-metric-card-desktop.png"
   }
 }

@@ -10,8 +10,8 @@
     "layouts"
   ],
   "screenshots": {
-    "mobile": "screenshots/layouts/sliders/logo-carousel-with-splide-mobile.png",
-    "tablet": "screenshots/layouts/sliders/logo-carousel-with-splide-tablet.png",
-    "desktop": "screenshots/layouts/sliders/logo-carousel-with-splide-desktop.png"
+    "mobile": "screenshots/01-layouts-html/06-sliders-logo-carousel-with-splide-mobile.png",
+    "tablet": "screenshots/01-layouts-html/06-sliders-logo-carousel-with-splide-tablet.png",
+    "desktop": "screenshots/01-layouts-html/06-sliders-logo-carousel-with-splide-desktop.png"
   }
 }

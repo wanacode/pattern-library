@@ -10,8 +10,8 @@
     "layouts"
   ],
   "screenshots": {
-    "mobile": "screenshots/layouts/content-grids/values-grid-with-icons-mobile.png",
-    "tablet": "screenshots/layouts/content-grids/values-grid-with-icons-tablet.png",
-    "desktop": "screenshots/layouts/content-grids/values-grid-with-icons-desktop.png"
+    "mobile": "screenshots/01-layouts-html/03-content-grids-values-grid-with-icons-mobile.png",
+    "tablet": "screenshots/01-layouts-html/03-content-grids-values-grid-with-icons-tablet.png",
+    "desktop": "screenshots/01-layouts-html/03-content-grids-values-grid-with-icons-desktop.png"
   }
 }

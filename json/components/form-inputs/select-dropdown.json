@@ -10,8 +10,8 @@
     "components"
   ],
   "screenshots": {
-    "mobile": "screenshots/components/form-inputs/select-dropdown-mobile.png",
-    "tablet": "screenshots/components/form-inputs/select-dropdown-tablet.png",
-    "desktop": "screenshots/components/form-inputs/select-dropdown-desktop.png"
+    "mobile": "screenshots/02-components-html/04-form-inputs-select-dropdown-mobile.png",
+    "tablet": "screenshots/02-components-html/04-form-inputs-select-dropdown-tablet.png",
+    "desktop": "screenshots/02-components-html/04-form-inputs-select-dropdown-desktop.png"
   }
 }

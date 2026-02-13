@@ -10,8 +10,8 @@
     "components"
   ],
   "screenshots": {
-    "mobile": "screenshots/components/form-inputs/radio-button-mobile.png",
-    "tablet": "screenshots/components/form-inputs/radio-button-tablet.png",
-    "desktop": "screenshots/components/form-inputs/radio-button-desktop.png"
+    "mobile": "screenshots/02-components-html/04-form-inputs-radio-button-mobile.png",
+    "tablet": "screenshots/02-components-html/04-form-inputs-radio-button-tablet.png",
+    "desktop": "screenshots/02-components-html/04-form-inputs-radio-button-desktop.png"
   }
 }

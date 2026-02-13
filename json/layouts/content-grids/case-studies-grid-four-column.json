@@ -10,8 +10,8 @@
     "layouts"
   ],
   "screenshots": {
-    "mobile": "screenshots/layouts/content-grids/case-studies-grid-four-column-mobile.png",
-    "tablet": "screenshots/layouts/content-grids/case-studies-grid-four-column-tablet.png",
-    "desktop": "screenshots/layouts/content-grids/case-studies-grid-four-column-desktop.png"
+    "mobile": "screenshots/01-layouts-html/03-content-grids-case-studies-grid-four-column-mobile.png",
+    "tablet": "screenshots/01-layouts-html/03-content-grids-case-studies-grid-four-column-tablet.png",
+    "desktop": "screenshots/01-layouts-html/03-content-grids-case-studies-grid-four-column-desktop.png"
   }
 }

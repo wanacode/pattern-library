@@ -10,8 +10,8 @@
     "components"
   ],
   "screenshots": {
-    "mobile": "screenshots/components/form-inputs/floating-label-input-mobile.png",
-    "tablet": "screenshots/components/form-inputs/floating-label-input-tablet.png",
-    "desktop": "screenshots/components/form-inputs/floating-label-input-desktop.png"
+    "mobile": "screenshots/02-components-html/04-form-inputs-floating-label-input-mobile.png",
+    "tablet": "screenshots/02-components-html/04-form-inputs-floating-label-input-tablet.png",
+    "desktop": "screenshots/02-components-html/04-form-inputs-floating-label-input-desktop.png"
   }
 }

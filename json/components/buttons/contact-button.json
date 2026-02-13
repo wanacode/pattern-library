@@ -10,8 +10,8 @@
     "components"
   ],
   "screenshots": {
-    "mobile": "screenshots/components/buttons/contact-button-mobile.png",
-    "tablet": "screenshots/components/buttons/contact-button-tablet.png",
-    "desktop": "screenshots/components/buttons/contact-button-desktop.png"
+    "mobile": "screenshots/02-components-html/01-buttons-contact-button-mobile.png",
+    "tablet": "screenshots/02-components-html/01-buttons-contact-button-tablet.png",
+    "desktop": "screenshots/02-components-html/01-buttons-contact-button-desktop.png"
   }
 }

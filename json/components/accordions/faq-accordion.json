@@ -10,8 +10,8 @@
     "components"
   ],
   "screenshots": {
-    "mobile": "screenshots/components/accordions/faq-accordion-mobile.png",
-    "tablet": "screenshots/components/accordions/faq-accordion-tablet.png",
-    "desktop": "screenshots/components/accordions/faq-accordion-desktop.png"
+    "mobile": "screenshots/02-components-html/03-accordions-faq-accordion-mobile.png",
+    "tablet": "screenshots/02-components-html/03-accordions-faq-accordion-tablet.png",
+    "desktop": "screenshots/02-components-html/03-accordions-faq-accordion-desktop.png"
   }
 }

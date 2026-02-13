@@ -8,7 +8,7 @@ function kebabCase(str) {
     .replace(/^-+|-+$/g, '');
 }
 
-function extractPatterns(content, category, subcategory) {
+function extractPatterns(content, category, subcategory, screenshotPrefix) {
   const patterns = [];
   const lines = content.split('\n');
   let currentPattern = null;
@@ -31,9 +31,9 @@ function extractPatterns(content, category, subcategory) {
           html: codeContent.trim(),
           tags: [subcategory, category],
           screenshots: {
-            mobile: `screenshots/${category}/${subcategory}/${kebabCase(currentPattern)}-mobile.png`,
-            tablet: `screenshots/${category}/${subcategory}/${kebabCase(currentPattern)}-tablet.png`,
-            desktop: `screenshots/${category}/${subcategory}/${kebabCase(currentPattern)}-desktop.png`
+            mobile: `screenshots/${screenshotPrefix}-${kebabCase(currentPattern)}-mobile.png`,
+            tablet: `screenshots/${screenshotPrefix}-${kebabCase(currentPattern)}-tablet.png`,
+            desktop: `screenshots/${screenshotPrefix}-${kebabCase(currentPattern)}-desktop.png`
           }
         });
       }
@@ -64,9 +64,9 @@ function extractPatterns(content, category, subcategory) {
       html: codeContent.trim(),
       tags: [subcategory, category],
       screenshots: {
-        mobile: `screenshots/${category}/${subcategory}/${kebabCase(currentPattern)}-mobile.png`,
-        tablet: `screenshots/${category}/${subcategory}/${kebabCase(currentPattern)}-tablet.png`,
-        desktop: `screenshots/${category}/${subcategory}/${kebabCase(currentPattern)}-desktop.png`
+        mobile: `screenshots/${screenshotPrefix}-${kebabCase(currentPattern)}-mobile.png`,
+        tablet: `screenshots/${screenshotPrefix}-${kebabCase(currentPattern)}-tablet.png`,
+        desktop: `screenshots/${screenshotPrefix}-${kebabCase(currentPattern)}-desktop.png`
       }
     });
   }
@@ -94,8 +94,10 @@ function convertMarkdownToJson() {
     const files = fs.readdirSync(layoutsDir).filter(f => f.endsWith('.md'));
     files.forEach(file => {
       const content = fs.readFileSync(path.join(layoutsDir, file), 'utf8');
-      const subcategory = path.basename(file, '.md').replace(/^\d+-/, '');
-      const patterns = extractPatterns(content, 'layouts', subcategory);
+      const fileBase = path.basename(file, '.md');
+      const subcategory = fileBase.replace(/^\d+-/, '');
+      const screenshotPrefix = `01-layouts-html/${fileBase}`;
+      const patterns = extractPatterns(content, 'layouts', subcategory, screenshotPrefix);
       
       const outputDir = path.join(jsonDir, 'layouts', subcategory);
       if (!fs.existsSync(outputDir)) {
@@ -115,8 +117,10 @@ function convertMarkdownToJson() {
     const files = fs.readdirSync(componentsDir).filter(f => f.endsWith('.md'));
     files.forEach(file => {
       const content = fs.readFileSync(path.join(componentsDir, file), 'utf8');
-      const subcategory = path.basename(file, '.md').replace(/^\d+-/, '');
-      const patterns = extractPatterns(content, 'components', subcategory);
+      const fileBase = path.basename(file, '.md');
+      const subcategory = fileBase.replace(/^\d+-/, '');
+      const screenshotPrefix = `02-components-html/${fileBase}`;
+      const patterns = extractPatterns(content, 'components', subcategory, screenshotPrefix);
       
       const outputDir = path.join(jsonDir, 'components', subcategory);
       if (!fs.existsSync(outputDir)) {

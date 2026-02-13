@@ -10,8 +10,8 @@
     "components"
   ],
   "screenshots": {
-    "mobile": "screenshots/components/accordions/simple-accordion-list-mobile.png",
-    "tablet": "screenshots/components/accordions/simple-accordion-list-tablet.png",
-    "desktop": "screenshots/components/accordions/simple-accordion-list-desktop.png"
+    "mobile": "screenshots/02-components-html/03-accordions-simple-accordion-list-mobile.png",
+    "tablet": "screenshots/02-components-html/03-accordions-simple-accordion-list-tablet.png",
+    "desktop": "screenshots/02-components-html/03-accordions-simple-accordion-list-desktop.png"
   }
 }

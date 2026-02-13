@@ -10,8 +10,8 @@
     "components"
   ],
   "screenshots": {
-    "mobile": "screenshots/components/accordions/staff-bio-accordion-mobile.png",
-    "tablet": "screenshots/components/accordions/staff-bio-accordion-tablet.png",
-    "desktop": "screenshots/components/accordions/staff-bio-accordion-desktop.png"
+    "mobile": "screenshots/02-components-html/03-accordions-staff-bio-accordion-mobile.png",
+    "tablet": "screenshots/02-components-html/03-accordions-staff-bio-accordion-tablet.png",
+    "desktop": "screenshots/02-components-html/03-accordions-staff-bio-accordion-desktop.png"
   }
 }

@@ -10,8 +10,8 @@
     "layouts"
   ],
   "screenshots": {
-    "mobile": "screenshots/layouts/heroes/split-layout-image-left-content-right-mobile.png",
-    "tablet": "screenshots/layouts/heroes/split-layout-image-left-content-right-tablet.png",
-    "desktop": "screenshots/layouts/heroes/split-layout-image-left-content-right-desktop.png"
+    "mobile": "screenshots/01-layouts-html/01-heroes-split-layout-image-left-content-right-mobile.png",
+    "tablet": "screenshots/01-layouts-html/01-heroes-split-layout-image-left-content-right-tablet.png",
+    "desktop": "screenshots/01-layouts-html/01-heroes-split-layout-image-left-content-right-desktop.png"
   }
 }

@@ -10,8 +10,8 @@
     "layouts"
   ],
   "screenshots": {
-    "mobile": "screenshots/layouts/content-grids/team-grid-with-hover-mobile.png",
-    "tablet": "screenshots/layouts/content-grids/team-grid-with-hover-tablet.png",
-    "desktop": "screenshots/layouts/content-grids/team-grid-with-hover-desktop.png"
+    "mobile": "screenshots/01-layouts-html/03-content-grids-team-grid-with-hover-mobile.png",
+    "tablet": "screenshots/01-layouts-html/03-content-grids-team-grid-with-hover-tablet.png",
+    "desktop": "screenshots/01-layouts-html/03-content-grids-team-grid-with-hover-desktop.png"
   }
 }
