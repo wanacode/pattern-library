@@ -36,7 +36,7 @@
         <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&fit=crop" alt="Image 1" class="w-full h-auto" />
       </li>
       <li class="splide__slide">
-        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&fit=crop" alt="Image 2" class="w-full h-auto" />
+        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&fit=crop" alt="Image 2" class="w-full h-auto" />
       </li>
       <li class="splide__slide">
         <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&fit=crop" alt="Image 3" class="w-full h-auto" />

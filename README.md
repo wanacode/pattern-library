@@ -99,7 +99,6 @@ Apply your own design system by:
 
 Consistent placeholder images used throughout:
 - **Mountains**: `photo-1464822759023-fed622ff2c3b`
-- **Blog/Notebook**: `photo-1499750310107-5fef28a66643`
 - **Ocean**: `photo-1507525428034-b723cf961d3e`
 - **Sunset**: `photo-1506905925346-21bda4d32df4`
 - **Lake**: `photo-1501785888041-af3ef285b470`
