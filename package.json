@@ -1,0 +1,21 @@
+{
+  "name": "pattern-library",
+  "version": "1.0.0",
+  "description": "A reusable component library extracted from the Amalgamotion 2025 WordPress theme",
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "convert": "node scripts/convert-to-json.js",
+    "viewer": "node scripts/build-viewer.js",
+    "screenshots": "node scripts/generate-screenshots.js",
+    "build": "pnpm run convert && pnpm run viewer",
+    "serve": "cd viewer && python3 -m http.server 3000",
+    "deploy": "pnpm run build"
+  },
+  "dependencies": {
+    "marked": "^11.0.0",
+    "playwright": "^1.40.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

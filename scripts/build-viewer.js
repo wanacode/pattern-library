@@ -133,7 +133,7 @@ function getSubcategoryFilters(patterns) {
 
 function createPatternCard(pattern) {
   const hasScreenshots = pattern.screenshots && pattern.screenshots.desktop;
-  const screenshotPath = hasScreenshots ? `../${pattern.screenshots.desktop}` : '';
+  const screenshotPath = hasScreenshots ? pattern.screenshots.desktop : '';
   
   return `
     <div class="pattern-card" data-category="${pattern.category}" data-subcategory="${pattern.subcategory}" data-id="${pattern.id}">
@@ -488,7 +488,7 @@ function showModal(pattern) {
             <button class="tab-btn" data-tab="mobile">Mobile</button>
           </div>
           <div class="screenshot-display" id="screenshot-display">
-            <img src="../\${pattern.screenshots.desktop}" alt="Desktop view">
+            <img src="\${pattern.screenshots.desktop}" alt="Desktop view">
           </div>
         </div>
       \` : ''}
@@ -521,7 +521,7 @@ function showModal(pattern) {
         btn.classList.add('active');
         const tab = btn.dataset.tab;
         const display = document.getElementById('screenshot-display');
-        display.innerHTML = \`<img src="../\${pattern.screenshots[tab]}" alt="\${tab} view">\`;
+        display.innerHTML = \`<img src="\${pattern.screenshots[tab]}" alt="\${tab} view">\`;
       });
     });
   }
