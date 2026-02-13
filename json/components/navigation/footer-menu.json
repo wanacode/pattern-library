@@ -1,0 +1,17 @@
+{
+  "id": "footer-menu",
+  "name": "Footer Menu",
+  "category": "components",
+  "subcategory": "navigation",
+  "description": "Footer Menu pattern",
+  "html": "<nav>\n  <ul class=\"space-y-3\">\n    <li><a href=\"#\" class=\"underline transition-opacity hover:opacity-70\">Link 1</a></li>\n    <li><a href=\"#\" class=\"underline transition-opacity hover:opacity-70\">Link 2</a></li>\n    <li><a href=\"#\" class=\"underline transition-opacity hover:opacity-70\">Link 3</a></li>\n    <li><a href=\"#\" class=\"underline transition-opacity hover:opacity-70\">Link 4</a></li>\n  </ul>\n</nav>",
+  "tags": [
+    "navigation",
+    "components"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/components/navigation/footer-menu-mobile.png",
+    "tablet": "screenshots/components/navigation/footer-menu-tablet.png",
+    "desktop": "screenshots/components/navigation/footer-menu-desktop.png"
+  }
+}

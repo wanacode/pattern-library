@@ -1,0 +1,14 @@
+{
+  "id": "stagger-children",
+  "name": "Stagger Children",
+  "category": "animations",
+  "subcategory": "transitions",
+  "description": "CSS animation: Stagger Children",
+  "css": ".stagger-children > *:nth-child(1) { animation-delay: 0ms; }\n.stagger-children > *:nth-child(2) { animation-delay: 100ms; }\n.stagger-children > *:nth-child(3) { animation-delay: 200ms; }\n.stagger-children > *:nth-child(4) { animation-delay: 300ms; }\n.stagger-children > *:nth-child(5) { animation-delay: 400ms; }",
+  "html": "",
+  "tags": [
+    "animation",
+    "transitions"
+  ],
+  "screenshots": null
+}

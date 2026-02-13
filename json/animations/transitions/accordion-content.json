@@ -1,0 +1,14 @@
+{
+  "id": "accordion-content",
+  "name": "Accordion Content",
+  "category": "animations",
+  "subcategory": "transitions",
+  "description": "CSS animation: Accordion Content",
+  "css": ".accordion-content {\n  overflow: hidden;\n  max-height: 0;\n  transition: max-height 0.5s ease-out;\n}\n\n.accordion-content.open {\n  max-height: 500px; /* Adjust based on content */\n}",
+  "html": "",
+  "tags": [
+    "animation",
+    "transitions"
+  ],
+  "screenshots": null
+}

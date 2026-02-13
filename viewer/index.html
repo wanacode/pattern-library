@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pattern Library</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <h1>Pattern Library</h1>
+      
+      <div class="filter-section">
+        <h3>Categories</h3>
+        <div class="checkbox-group">
+          
+            <label class="checkbox">
+              <input type="checkbox" value="animations" checked data-filter="category">
+              <span>Animations</span>
+            </label>
+          
+            <label class="checkbox">
+              <input type="checkbox" value="components" checked data-filter="category">
+              <span>Components</span>
+            </label>
+          
+            <label class="checkbox">
+              <input type="checkbox" value="layouts" checked data-filter="category">
+              <span>Layouts</span>
+            </label>
+          
+        </div>
+      </div>
+      
+      <div class="filter-section">
+        <h3>Subcategories</h3>
+        <div class="checkbox-group" id="subcategory-filters">
+          
+    <label class="checkbox">
+      <input type="checkbox" value="accordions" checked data-filter="subcategory">
+      <span>Accordions</span>
+    </label>
+  
+    <label class="checkbox">
+      <input type="checkbox" value="buttons" checked data-filter="subcategory">
+      <span>Buttons</span>
+    </label>
+  
+    <label class="checkbox">
+      <input type="checkbox" value="cards" checked data-filter="subcategory">
+      <span>Cards</span>
+    </label>
+  
+    <label class="checkbox">
+      <input type="checkbox" value="content-grids" checked data-filter="subcategory">
+      <span>Content Grids</span>
+    </label>
+  
+    <label class="checkbox">
+      <input type="checkbox" value="fade-effects" checked data-filter="subcategory">
+      <span>Fade Effects</span>
+    </label>
+  
+    <label class="checkbox">
+      <input type="checkbox" value="footer" checked data-filter="subcategory">
+      <span>Footer</span>
+    </label>
+  
+    <label class="checkbox">
+      <input type="checkbox" value="form-inputs" checked data-filter="subcategory">
+      <span>Form Inputs</span>
+    </label>
+  
+    <label class="checkbox">
+      <input type="checkbox" value="heroes" checked data-filter="subcategory">
+      <span>Heroes</span>
+    </label>
+  
+    <label class="checkbox">
+      <input type="checkbox" value="hover-effects" checked data-filter="subcategory">
+      <span>Hover Effects</span>
+    </label>
+  
+    <label class="checkbox">
+      <input type="checkbox" value="intro-sections" checked data-filter="subcategory">
+      <span>Intro Sections</span>
+    </label>
+  
+    <label class="checkbox">
+      <input type="checkbox" value="navigation" checked data-filter="subcategory">
+      <span>Navigation</span>
+    </label>
+  
+    <label class="checkbox">
+      <input type="checkbox" value="sliders" checked data-filter="subcategory">
+      <span>Sliders</span>
+    </label>
+  
+    <label class="checkbox">
+      <input type="checkbox" value="transforms" checked data-filter="subcategory">
+      <span>Transforms</span>
+    </label>
+  
+    <label class="checkbox">
+      <input type="checkbox" value="transitions" checked data-filter="subcategory">
+      <span>Transitions</span>
+    </label>
+  
+        </div>
+      </div>
+      
+      <div class="stats">
+        <p>Showing <span id="count">67</span> patterns</p>
+      </div>
+    </aside>
+    
+    <main class="main">
+      <div class="pattern-grid" id="pattern-grid">
+        
+    <div class="pattern-card" data-category="layouts" data-subcategory="cards" data-id="blog-post-card">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/cards/blog-post-card-desktop.png" alt="Blog Post Card" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">cards</span>
+        <h3 class="pattern-name">Blog Post Card</h3>
+        <p class="pattern-description">Blog Post Card pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="layouts" data-subcategory="cards" data-id="case-study-card-with-hover-effect">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/cards/case-study-card-with-hover-effect-desktop.png" alt="Case Study Card with Hover Effect" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">cards</span>
+        <h3 class="pattern-name">Case Study Card with Hover Effect</h3>
+        <p class="pattern-description">Case Study Card with Hover Effect pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="layouts" data-subcategory="cards" data-id="service-category-card">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/cards/service-category-card-desktop.png" alt="Service Category Card" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">cards</span>
+        <h3 class="pattern-name">Service Category Card</h3>
+        <p class="pattern-description">Service Category Card pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="layouts" data-subcategory="cards" data-id="stat-metric-card">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/cards/stat-metric-card-desktop.png" alt="Stat Metric Card" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">cards</span>
+        <h3 class="pattern-name">Stat Metric Card</h3>
+        <p class="pattern-description">Stat Metric Card pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="layouts" data-subcategory="cards" data-id="testimonial-block-with-attribution">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/cards/testimonial-block-with-attribution-desktop.png" alt="Testimonial Block with Attribution" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">cards</span>
+        <h3 class="pattern-name">Testimonial Block with Attribution</h3>
+        <p class="pattern-description">Testimonial Block with Attribution pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="layouts" data-subcategory="content-grids" data-id="case-studies-grid-four-column">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/content-grids/case-studies-grid-four-column-desktop.png" alt="Case Studies Grid Four Column" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">content-grids</span>
+        <h3 class="pattern-name">Case Studies Grid Four Column</h3>
+        <p class="pattern-description">Case Studies Grid Four Column pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="layouts" data-subcategory="content-grids" data-id="logo-grid-responsive">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/content-grids/logo-grid-responsive-desktop.png" alt="Logo Grid Responsive" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">content-grids</span>
+        <h3 class="pattern-name">Logo Grid Responsive</h3>
+        <p class="pattern-description">Logo Grid Responsive pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="layouts" data-subcategory="content-grids" data-id="services-three-column-grid">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/content-grids/services-three-column-grid-desktop.png" alt="Services Three Column Grid" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">content-grids</span>
+        <h3 class="pattern-name">Services Three Column Grid</h3>
+        <p class="pattern-description">Services Three Column Grid pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="layouts" data-subcategory="content-grids" data-id="team-grid-with-hover">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/content-grids/team-grid-with-hover-desktop.png" alt="Team Grid with Hover" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">content-grids</span>
+        <h3 class="pattern-name">Team Grid with Hover</h3>
+        <p class="pattern-description">Team Grid with Hover pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="layouts" data-subcategory="content-grids" data-id="values-grid-with-icons">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/content-grids/values-grid-with-icons-desktop.png" alt="Values Grid with Icons" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">content-grids</span>
+        <h3 class="pattern-name">Values Grid with Icons</h3>
+        <p class="pattern-description">Values Grid with Icons pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="layouts" data-subcategory="footer" data-id="four-column-layout">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/footer/four-column-layout-desktop.png" alt="Four Column Layout" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">footer</span>
+        <h3 class="pattern-name">Four Column Layout</h3>
+        <p class="pattern-description">Four Column Layout pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="layouts" data-subcategory="heroes" data-id="full-viewport-with-bottom-text">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/heroes/full-viewport-with-bottom-text-desktop.png" alt="Full Viewport with Bottom Text" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">heroes</span>
+        <h3 class="pattern-name">Full Viewport with Bottom Text</h3>
+        <p class="pattern-description">Full Viewport with Bottom Text pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="layouts" data-subcategory="heroes" data-id="minimal-text-only">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/heroes/minimal-text-only-desktop.png" alt="Minimal Text Only" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">heroes</span>
+        <h3 class="pattern-name">Minimal Text Only</h3>
+        <p class="pattern-description">Minimal Text Only pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="layouts" data-subcategory="heroes" data-id="split-layout-image-left-content-right">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/heroes/split-layout-image-left-content-right-desktop.png" alt="Split Layout Image Left Content Right" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">heroes</span>
+        <h3 class="pattern-name">Split Layout Image Left Content Right</h3>
+        <p class="pattern-description">Split Layout Image Left Content Right pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="layouts" data-subcategory="intro-sections" data-id="centered-text-block">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/intro-sections/centered-text-block-desktop.png" alt="Centered Text Block" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">intro-sections</span>
+        <h3 class="pattern-name">Centered Text Block</h3>
+        <p class="pattern-description">Centered Text Block pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="layouts" data-subcategory="intro-sections" data-id="full-width-background-with-centered-content">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/intro-sections/full-width-background-with-centered-content-desktop.png" alt="Full Width Background with Centered Content" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">intro-sections</span>
+        <h3 class="pattern-name">Full Width Background with Centered Content</h3>
+        <p class="pattern-description">Full Width Background with Centered Content pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="layouts" data-subcategory="intro-sections" data-id="intro-with-logos-grid">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/intro-sections/intro-with-logos-grid-desktop.png" alt="Intro with Logos Grid" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">intro-sections</span>
+        <h3 class="pattern-name">Intro with Logos Grid</h3>
+        <p class="pattern-description">Intro with Logos Grid pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="layouts" data-subcategory="intro-sections" data-id="split-intro-with-contact-details">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/intro-sections/split-intro-with-contact-details-desktop.png" alt="Split Intro with Contact Details" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">intro-sections</span>
+        <h3 class="pattern-name">Split Intro with Contact Details</h3>
+        <p class="pattern-description">Split Intro with Contact Details pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="layouts" data-subcategory="intro-sections" data-id="two-column-image-and-text">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/intro-sections/two-column-image-and-text-desktop.png" alt="Two Column Image and Text" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">intro-sections</span>
+        <h3 class="pattern-name">Two Column Image and Text</h3>
+        <p class="pattern-description">Two Column Image and Text pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="layouts" data-subcategory="sliders" data-id="image-gallery-slider-with-pagination">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/sliders/image-gallery-slider-with-pagination-desktop.png" alt="Image Gallery Slider with Pagination" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">sliders</span>
+        <h3 class="pattern-name">Image Gallery Slider with Pagination</h3>
+        <p class="pattern-description">**Dependencies:** Splide.js v4.x, Splide CSS</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="layouts" data-subcategory="sliders" data-id="logo-carousel-with-splide">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/sliders/logo-carousel-with-splide-desktop.png" alt="Logo Carousel with Splide" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">sliders</span>
+        <h3 class="pattern-name">Logo Carousel with Splide</h3>
+        <p class="pattern-description">**Dependencies:** Splide.js v4.x, Splide CSS</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="layouts" data-subcategory="sliders" data-id="testimonial-slider">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/layouts/sliders/testimonial-slider-desktop.png" alt="Testimonial Slider" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">sliders</span>
+        <h3 class="pattern-name">Testimonial Slider</h3>
+        <p class="pattern-description">**Dependencies:** Splide.js v4.x, Splide CSS</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="components" data-subcategory="accordions" data-id="faq-accordion">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/components/accordions/faq-accordion-desktop.png" alt="FAQ Accordion" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">accordions</span>
+        <h3 class="pattern-name">FAQ Accordion</h3>
+        <p class="pattern-description">FAQ Accordion pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="components" data-subcategory="accordions" data-id="simple-accordion-list">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/components/accordions/simple-accordion-list-desktop.png" alt="Simple Accordion List" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">accordions</span>
+        <h3 class="pattern-name">Simple Accordion List</h3>
+        <p class="pattern-description">Simple Accordion List pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="components" data-subcategory="accordions" data-id="staff-bio-accordion">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/components/accordions/staff-bio-accordion-desktop.png" alt="Staff Bio Accordion" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">accordions</span>
+        <h3 class="pattern-name">Staff Bio Accordion</h3>
+        <p class="pattern-description">Staff Bio Accordion pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="components" data-subcategory="buttons" data-id="button-with-icon">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/components/buttons/button-with-icon-desktop.png" alt="Button with Icon" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">buttons</span>
+        <h3 class="pattern-name">Button with Icon</h3>
+        <p class="pattern-description">Button with Icon pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="components" data-subcategory="buttons" data-id="contact-button">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/components/buttons/contact-button-desktop.png" alt="Contact Button" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">buttons</span>
+        <h3 class="pattern-name">Contact Button</h3>
+        <p class="pattern-description">Contact Button pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="components" data-subcategory="buttons" data-id="ghost-button">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/components/buttons/ghost-button-desktop.png" alt="Ghost Button" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">buttons</span>
+        <h3 class="pattern-name">Ghost Button</h3>
+        <p class="pattern-description">Ghost Button pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="components" data-subcategory="buttons" data-id="primary-button">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/components/buttons/primary-button-desktop.png" alt="Primary Button" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">buttons</span>
+        <h3 class="pattern-name">Primary Button</h3>
+        <p class="pattern-description">Primary Button pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="components" data-subcategory="buttons" data-id="secondary-button">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/components/buttons/secondary-button-desktop.png" alt="Secondary Button" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">buttons</span>
+        <h3 class="pattern-name">Secondary Button</h3>
+        <p class="pattern-description">Secondary Button pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="components" data-subcategory="form-inputs" data-id="checkbox">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/components/form-inputs/checkbox-desktop.png" alt="Checkbox" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">form-inputs</span>
+        <h3 class="pattern-name">Checkbox</h3>
+        <p class="pattern-description">Checkbox pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="components" data-subcategory="form-inputs" data-id="contact-form-layout">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/components/form-inputs/contact-form-layout-desktop.png" alt="Contact Form Layout" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">form-inputs</span>
+        <h3 class="pattern-name">Contact Form Layout</h3>
+        <p class="pattern-description">Contact Form Layout pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="components" data-subcategory="form-inputs" data-id="floating-label-input">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/components/form-inputs/floating-label-input-desktop.png" alt="Floating Label Input" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">form-inputs</span>
+        <h3 class="pattern-name">Floating Label Input</h3>
+        <p class="pattern-description">Floating Label Input pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="components" data-subcategory="form-inputs" data-id="floating-label-textarea">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/components/form-inputs/floating-label-textarea-desktop.png" alt="Floating Label Textarea" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">form-inputs</span>
+        <h3 class="pattern-name">Floating Label Textarea</h3>
+        <p class="pattern-description">Floating Label Textarea pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="components" data-subcategory="form-inputs" data-id="radio-button">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/components/form-inputs/radio-button-desktop.png" alt="Radio Button" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">form-inputs</span>
+        <h3 class="pattern-name">Radio Button</h3>
+        <p class="pattern-description">Radio Button pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="components" data-subcategory="form-inputs" data-id="select-dropdown">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/components/form-inputs/select-dropdown-desktop.png" alt="Select Dropdown" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">form-inputs</span>
+        <h3 class="pattern-name">Select Dropdown</h3>
+        <p class="pattern-description">Select Dropdown pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="components" data-subcategory="navigation" data-id="breadcrumb-navigation">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/components/navigation/breadcrumb-navigation-desktop.png" alt="Breadcrumb Navigation" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">navigation</span>
+        <h3 class="pattern-name">Breadcrumb Navigation</h3>
+        <p class="pattern-description">Breadcrumb Navigation pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="components" data-subcategory="navigation" data-id="footer-menu">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/components/navigation/footer-menu-desktop.png" alt="Footer Menu" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">navigation</span>
+        <h3 class="pattern-name">Footer Menu</h3>
+        <p class="pattern-description">Footer Menu pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="components" data-subcategory="navigation" data-id="mobile-menu-modal">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/components/navigation/mobile-menu-modal-desktop.png" alt="Mobile Menu Modal" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">navigation</span>
+        <h3 class="pattern-name">Mobile Menu Modal</h3>
+        <p class="pattern-description">**Dependencies:** MicroModal.js</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="components" data-subcategory="navigation" data-id="sticky-header-with-logo">
+      <div class="pattern-thumbnail">
+        <img src="../screenshots/components/navigation/sticky-header-with-logo-desktop.png" alt="Sticky Header with Logo" loading="lazy">
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">navigation</span>
+        <h3 class="pattern-name">Sticky Header with Logo</h3>
+        <p class="pattern-description">Sticky Header with Logo pattern</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="fade-effects" data-id="fade-in-delayed">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">fade-effects</span>
+        <h3 class="pattern-name">Fade In Delayed</h3>
+        <p class="pattern-description">CSS animation: Fade In Delayed</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="fade-effects" data-id="fade-in-down">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">fade-effects</span>
+        <h3 class="pattern-name">Fade In Down</h3>
+        <p class="pattern-description">CSS animation: Fade In Down</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="fade-effects" data-id="fade-in-up">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">fade-effects</span>
+        <h3 class="pattern-name">Fade In Up</h3>
+        <p class="pattern-description">CSS animation: Fade In Up</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="fade-effects" data-id="fade-in">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">fade-effects</span>
+        <h3 class="pattern-name">Fade In</h3>
+        <p class="pattern-description">CSS animation: Fade In</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="fade-effects" data-id="hero-image-fade">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">fade-effects</span>
+        <h3 class="pattern-name">Hero Image Fade</h3>
+        <p class="pattern-description">CSS animation: Hero Image Fade</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="hover-effects" data-id="button-hover">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">hover-effects</span>
+        <h3 class="pattern-name">Button Hover</h3>
+        <p class="pattern-description">CSS animation: Button Hover</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="hover-effects" data-id="card-hover">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">hover-effects</span>
+        <h3 class="pattern-name">Card Hover</h3>
+        <p class="pattern-description">CSS animation: Card Hover</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="hover-effects" data-id="image-grayscale-hover">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">hover-effects</span>
+        <h3 class="pattern-name">Image Grayscale Hover</h3>
+        <p class="pattern-description">CSS animation: Image Grayscale Hover</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="hover-effects" data-id="lift-on-hover">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">hover-effects</span>
+        <h3 class="pattern-name">Lift on Hover</h3>
+        <p class="pattern-description">CSS animation: Lift on Hover</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="hover-effects" data-id="link-underline-hover">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">hover-effects</span>
+        <h3 class="pattern-name">Link Underline Hover</h3>
+        <p class="pattern-description">CSS animation: Link Underline Hover</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="hover-effects" data-id="nav-link-hover">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">hover-effects</span>
+        <h3 class="pattern-name">Nav Link Hover</h3>
+        <p class="pattern-description">CSS animation: Nav Link Hover</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="hover-effects" data-id="opacity-hover">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">hover-effects</span>
+        <h3 class="pattern-name">Opacity Hover</h3>
+        <p class="pattern-description">CSS animation: Opacity Hover</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="transforms" data-id="group-scale-hover">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">transforms</span>
+        <h3 class="pattern-name">Group Scale Hover</h3>
+        <p class="pattern-description">CSS animation: Group Scale Hover</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="transforms" data-id="modal-scale-animation">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">transforms</span>
+        <h3 class="pattern-name">Modal Scale Animation</h3>
+        <p class="pattern-description">CSS animation: Modal Scale Animation</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="transforms" data-id="rotate-icon">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">transforms</span>
+        <h3 class="pattern-name">Rotate Icon</h3>
+        <p class="pattern-description">CSS animation: Rotate Icon</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="transforms" data-id="scale-down-on-click">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">transforms</span>
+        <h3 class="pattern-name">Scale Down on Click</h3>
+        <p class="pattern-description">CSS animation: Scale Down on Click</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="transforms" data-id="scale-hover">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">transforms</span>
+        <h3 class="pattern-name">Scale Hover</h3>
+        <p class="pattern-description">CSS animation: Scale Hover</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="transforms" data-id="translate-on-hover">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">transforms</span>
+        <h3 class="pattern-name">Translate on Hover</h3>
+        <p class="pattern-description">CSS animation: Translate on Hover</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="transitions" data-id="accordion-content">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">transitions</span>
+        <h3 class="pattern-name">Accordion Content</h3>
+        <p class="pattern-description">CSS animation: Accordion Content</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="transitions" data-id="color-transition">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">transitions</span>
+        <h3 class="pattern-name">Color Transition</h3>
+        <p class="pattern-description">CSS animation: Color Transition</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="transitions" data-id="duration-utilities">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">transitions</span>
+        <h3 class="pattern-name">Duration Utilities</h3>
+        <p class="pattern-description">CSS animation: Duration Utilities</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="transitions" data-id="easing-functions">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">transitions</span>
+        <h3 class="pattern-name">Easing Functions</h3>
+        <p class="pattern-description">CSS animation: Easing Functions</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="transitions" data-id="height-transition">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">transitions</span>
+        <h3 class="pattern-name">Height Transition</h3>
+        <p class="pattern-description">CSS animation: Height Transition</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="transitions" data-id="opacity-transition">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">transitions</span>
+        <h3 class="pattern-name">Opacity Transition</h3>
+        <p class="pattern-description">CSS animation: Opacity Transition</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="transitions" data-id="smooth-transition">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">transitions</span>
+        <h3 class="pattern-name">Smooth Transition</h3>
+        <p class="pattern-description">CSS animation: Smooth Transition</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="transitions" data-id="stagger-children">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">transitions</span>
+        <h3 class="pattern-name">Stagger Children</h3>
+        <p class="pattern-description">CSS animation: Stagger Children</p>
+      </div>
+    </div>
+  
+    <div class="pattern-card" data-category="animations" data-subcategory="transitions" data-id="transform-transition">
+      <div class="pattern-thumbnail">
+        <div class="no-screenshot">No Preview</div>
+      </div>
+      <div class="pattern-info">
+        <span class="pattern-category">transitions</span>
+        <h3 class="pattern-name">Transform Transition</h3>
+        <p class="pattern-description">CSS animation: Transform Transition</p>
+      </div>
+    </div>
+  
+      </div>
+    </main>
+    
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <button class="modal-close" id="modal-close">&times;</button>
+        <div id="modal-body"></div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>

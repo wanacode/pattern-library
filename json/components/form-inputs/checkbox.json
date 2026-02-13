@@ -1,0 +1,17 @@
+{
+  "id": "checkbox",
+  "name": "Checkbox",
+  "category": "components",
+  "subcategory": "form-inputs",
+  "description": "Checkbox pattern",
+  "html": "<label class=\"flex items-start cursor-pointer group\">\n  <input type=\"checkbox\" \n         name=\"field-name\"\n         class=\"peer sr-only\" />\n  <span class=\"w-5 h-5 border-2 flex items-center justify-center mr-3 mt-0.5 transition-colors\">\n    <svg class=\"w-3 h-3 opacity-0 peer-checked:opacity-100\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"3\" d=\"M5 13l4 4L19 7\"/>\n    </svg>\n  </span>\n  <span class=\"text-sm\">Checkbox label text</span>\n</label>",
+  "tags": [
+    "form-inputs",
+    "components"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/components/form-inputs/checkbox-mobile.png",
+    "tablet": "screenshots/components/form-inputs/checkbox-tablet.png",
+    "desktop": "screenshots/components/form-inputs/checkbox-desktop.png"
+  }
+}

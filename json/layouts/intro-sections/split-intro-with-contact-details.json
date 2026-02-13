@@ -1,0 +1,17 @@
+{
+  "id": "split-intro-with-contact-details",
+  "name": "Split Intro with Contact Details",
+  "category": "layouts",
+  "subcategory": "intro-sections",
+  "description": "Split Intro with Contact Details pattern",
+  "html": "<section class=\"py-16 md:py-24\">\n  <div class=\"grid grid-cols-1 md:grid-cols-12 gap-8 px-6 xl:px-20\">\n    <div class=\"md:col-span-3 mb-8 md:mb-0\">\n      <div class=\"space-y-4\">\n        <div>\n          <p class=\"text-sm font-semibold uppercase tracking-wide\">Phone</p>\n          <a href=\"tel:phone\" class=\"hover:underline\">Phone number</a>\n        </div>\n        <div>\n          <p class=\"text-sm font-semibold uppercase tracking-wide\">Email</p>\n          <a href=\"mailto:email\" class=\"hover:underline\">Email address</a>\n        </div>\n        <div>\n          <p class=\"text-sm font-semibold uppercase tracking-wide\">Address</p>\n          <address class=\"not-italic\">Street address</address>\n        </div>\n      </div>\n    </div>\n    <div class=\"md:col-span-8 md:col-start-5\">\n      <p class=\"text-2xl md:text-3xl leading-relaxed mb-8\">Large intro text</p>\n      <div class=\"prose\">\n        <p>Secondary content</p>\n      </div>\n    </div>\n  </div>\n</section>",
+  "tags": [
+    "intro-sections",
+    "layouts"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/layouts/intro-sections/split-intro-with-contact-details-mobile.png",
+    "tablet": "screenshots/layouts/intro-sections/split-intro-with-contact-details-tablet.png",
+    "desktop": "screenshots/layouts/intro-sections/split-intro-with-contact-details-desktop.png"
+  }
+}

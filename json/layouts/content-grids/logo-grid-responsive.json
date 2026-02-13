@@ -1,0 +1,17 @@
+{
+  "id": "logo-grid-responsive",
+  "name": "Logo Grid Responsive",
+  "category": "layouts",
+  "subcategory": "content-grids",
+  "description": "Logo Grid Responsive pattern",
+  "html": "<section class=\"py-16 md:py-24\">\n  <div class=\"px-6 xl:px-20\">\n    <div class=\"grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-x-8 gap-y-8\">\n      <img src=\"https://placehold.co/120x48?text=Logo\" alt=\"Client\" class=\"h-12 w-auto mx-auto opacity-60\" />\n      <img src=\"https://placehold.co/120x48?text=Logo\" alt=\"Client\" class=\"h-12 w-auto mx-auto opacity-60\" />\n      <img src=\"https://placehold.co/120x48?text=Logo\" alt=\"Client\" class=\"h-12 w-auto mx-auto opacity-60\" />\n      <img src=\"https://placehold.co/120x48?text=Logo\" alt=\"Client\" class=\"h-12 w-auto mx-auto opacity-60\" />\n      <img src=\"https://placehold.co/120x48?text=Logo\" alt=\"Client\" class=\"h-12 w-auto mx-auto opacity-60\" />\n      <img src=\"https://placehold.co/120x48?text=Logo\" alt=\"Client\" class=\"h-12 w-auto mx-auto opacity-60\" />\n    </div>\n  </div>\n</section>",
+  "tags": [
+    "content-grids",
+    "layouts"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/layouts/content-grids/logo-grid-responsive-mobile.png",
+    "tablet": "screenshots/layouts/content-grids/logo-grid-responsive-tablet.png",
+    "desktop": "screenshots/layouts/content-grids/logo-grid-responsive-desktop.png"
+  }
+}

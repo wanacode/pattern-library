@@ -1,0 +1,17 @@
+{
+  "id": "values-grid-with-icons",
+  "name": "Values Grid with Icons",
+  "category": "layouts",
+  "subcategory": "content-grids",
+  "description": "Values Grid with Icons pattern",
+  "html": "<section class=\"py-20 md:py-32\">\n  <div class=\"grid grid-cols-1 md:grid-cols-3 gap-x-8 px-6 xl:px-20\">\n    <div class=\"py-6\">\n      <div class=\"w-16 h-16 mb-6\">\n        <svg class=\"w-full h-full\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\"/>\n        </svg>\n      </div>\n      <h3 class=\"text-xl font-bold\">Value Title</h3>\n      <p class=\"mt-2\">Value description</p>\n    </div>\n  </div>\n</section>",
+  "tags": [
+    "content-grids",
+    "layouts"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/layouts/content-grids/values-grid-with-icons-mobile.png",
+    "tablet": "screenshots/layouts/content-grids/values-grid-with-icons-tablet.png",
+    "desktop": "screenshots/layouts/content-grids/values-grid-with-icons-desktop.png"
+  }
+}

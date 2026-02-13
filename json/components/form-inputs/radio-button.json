@@ -1,0 +1,17 @@
+{
+  "id": "radio-button",
+  "name": "Radio Button",
+  "category": "components",
+  "subcategory": "form-inputs",
+  "description": "Radio Button pattern",
+  "html": "<label class=\"flex items-center cursor-pointer group\">\n  <input type=\"radio\" \n         name=\"field-name\"\n         value=\"option-value\"\n         class=\"peer sr-only\" />\n  <span class=\"w-5 h-5 border-2 rounded-full flex items-center justify-center mr-3 transition-colors\">\n    <span class=\"w-2.5 h-2.5 rounded-full opacity-0 peer-checked:opacity-100 transition-opacity\"></span>\n  </span>\n  <span>Radio option text</span>\n</label>",
+  "tags": [
+    "form-inputs",
+    "components"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/components/form-inputs/radio-button-mobile.png",
+    "tablet": "screenshots/components/form-inputs/radio-button-tablet.png",
+    "desktop": "screenshots/components/form-inputs/radio-button-desktop.png"
+  }
+}

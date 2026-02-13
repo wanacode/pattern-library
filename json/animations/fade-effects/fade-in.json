@@ -1,0 +1,14 @@
+{
+  "id": "fade-in",
+  "name": "Fade In",
+  "category": "animations",
+  "subcategory": "fade-effects",
+  "description": "CSS animation: Fade In",
+  "css": ".animate-fade-in {\n  opacity: 0;\n  animation: fadein 1s forwards;\n}\n\n@keyframes fadein {\n  to {\n    opacity: 1;\n  }\n}",
+  "html": "<img src=\"image.jpg\" class=\"animate-fade-in\" />",
+  "tags": [
+    "animation",
+    "fade-effects"
+  ],
+  "screenshots": null
+}

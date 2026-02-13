@@ -1,0 +1,17 @@
+{
+  "id": "ghost-button",
+  "name": "Ghost Button",
+  "category": "components",
+  "subcategory": "buttons",
+  "description": "Ghost Button pattern",
+  "html": "<a href=\"#\" class=\"inline-block underline font-semibold\">\n  Button Text\n</a>",
+  "tags": [
+    "buttons",
+    "components"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/components/buttons/ghost-button-mobile.png",
+    "tablet": "screenshots/components/buttons/ghost-button-tablet.png",
+    "desktop": "screenshots/components/buttons/ghost-button-desktop.png"
+  }
+}

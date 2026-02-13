@@ -1,0 +1,14 @@
+{
+  "id": "height-transition",
+  "name": "Height Transition",
+  "category": "animations",
+  "subcategory": "transitions",
+  "description": "CSS animation: Height Transition",
+  "css": ".transition-height {\n  transition: max-height 0.5s ease-out;\n}",
+  "html": "",
+  "tags": [
+    "animation",
+    "transitions"
+  ],
+  "screenshots": null
+}

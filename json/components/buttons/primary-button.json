@@ -1,0 +1,17 @@
+{
+  "id": "primary-button",
+  "name": "Primary Button",
+  "category": "components",
+  "subcategory": "buttons",
+  "description": "Primary Button pattern",
+  "html": "<a href=\"#\" class=\"inline-block rounded-full border-2 px-8 py-3 font-semibold transition-colors\">\n  Button Text\n</a>",
+  "tags": [
+    "buttons",
+    "components"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/components/buttons/primary-button-mobile.png",
+    "tablet": "screenshots/components/buttons/primary-button-tablet.png",
+    "desktop": "screenshots/components/buttons/primary-button-desktop.png"
+  }
+}

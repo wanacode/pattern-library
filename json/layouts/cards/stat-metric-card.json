@@ -1,0 +1,17 @@
+{
+  "id": "stat-metric-card",
+  "name": "Stat Metric Card",
+  "category": "layouts",
+  "subcategory": "cards",
+  "description": "Stat Metric Card pattern",
+  "html": "<div class=\"text-center py-8\">\n  <p class=\"text-5xl md:text-6xl font-bold\">100</p>\n  <p class=\"mt-2\">Label</p>\n</div>",
+  "tags": [
+    "cards",
+    "layouts"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/layouts/cards/stat-metric-card-mobile.png",
+    "tablet": "screenshots/layouts/cards/stat-metric-card-tablet.png",
+    "desktop": "screenshots/layouts/cards/stat-metric-card-desktop.png"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "case-study-card-with-hover-effect",
+  "name": "Case Study Card with Hover Effect",
+  "category": "layouts",
+  "subcategory": "cards",
+  "description": "Case Study Card with Hover Effect pattern",
+  "html": "<article class=\"group duration-300 hover:opacity-70\">\n  <a href=\"#\" class=\"block\">\n    <div class=\"overflow-hidden aspect-square rounded-lg\">\n      <img src=\"https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=640&fit=crop\"\n           srcset=\"https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=640&fit=crop 640w\"\n           sizes=\"(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw\"\n           alt=\"Case study\"\n           class=\"w-full h-full object-cover transition duration-300 group-hover:scale-[1.02]\"\n           loading=\"lazy\" />\n    </div>\n    <h3 class=\"font-bold mt-4\">Case Study Title</h3>\n    <p class=\"text-sm mt-1\">Category</p>\n  </a>\n</article>",
+  "tags": [
+    "cards",
+    "layouts"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/layouts/cards/case-study-card-with-hover-effect-mobile.png",
+    "tablet": "screenshots/layouts/cards/case-study-card-with-hover-effect-tablet.png",
+    "desktop": "screenshots/layouts/cards/case-study-card-with-hover-effect-desktop.png"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "contact-form-layout",
+  "name": "Contact Form Layout",
+  "category": "components",
+  "subcategory": "form-inputs",
+  "description": "Contact Form Layout pattern",
+  "html": "<form class=\"space-y-6\">\n  <div class=\"relative\">\n    <input type=\"text\" \n           id=\"name\"\n           name=\"name\"\n           placeholder=\" \"\n           class=\"peer block w-full px-4 py-3 border-0 placeholder-transparent focus:ring-0 focus:outline-none\"\n           required />\n    <label for=\"name\"\n           class=\"absolute left-4 top-3 transition-all duration-200\n                  peer-placeholder-shown:top-3 peer-placeholder-shown:text-base\n                  peer-focus:top-1 peer-focus:text-xs\n                  peer-not-placeholder-shown:top-1 peer-not-placeholder-shown:text-xs\">\n      Full Name\n    </label>\n  </div>\n  \n  <div class=\"relative\">\n    <input type=\"email\" \n           id=\"email\"\n           name=\"email\"\n           placeholder=\" \"\n           class=\"peer block w-full px-4 py-3 border-0 placeholder-transparent focus:ring-0 focus:outline-none\"\n           required />\n    <label for=\"email\"\n           class=\"absolute left-4 top-3 transition-all duration-200\n                  peer-placeholder-shown:top-3 peer-placeholder-shown:text-base\n                  peer-focus:top-1 peer-focus:text-xs\n                  peer-not-placeholder-shown:top-1 peer-not-placeholder-shown:text-xs\">\n      Email Address\n    </label>\n  </div>\n  \n  <div class=\"relative\">\n    <textarea id=\"message\"\n              name=\"message\"\n              placeholder=\" \"\n              rows=\"4\"\n              class=\"peer block w-full px-4 py-3 border-0 placeholder-transparent focus:ring-0 focus:outline-none resize-none\"\n              required></textarea>\n    <label for=\"message\"\n           class=\"absolute left-4 top-3 transition-all duration-200\n                  peer-placeholder-shown:top-3 peer-placeholder-shown:text-base\n                  peer-focus:top-1 peer-focus:text-xs\n                  peer-not-placeholder-shown:top-1 peer-not-placeholder-shown:text-xs\">\n      Your Message\n    </label>\n  </div>\n  \n  <button type=\"submit\" class=\"inline-block rounded-full border-2 px-8 py-3 font-semibold transition-colors\">\n    Send Message\n  </button>\n</form>",
+  "tags": [
+    "form-inputs",
+    "components"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/components/form-inputs/contact-form-layout-mobile.png",
+    "tablet": "screenshots/components/form-inputs/contact-form-layout-tablet.png",
+    "desktop": "screenshots/components/form-inputs/contact-form-layout-desktop.png"
+  }
+}

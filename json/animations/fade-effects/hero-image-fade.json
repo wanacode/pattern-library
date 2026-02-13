@@ -1,0 +1,14 @@
+{
+  "id": "hero-image-fade",
+  "name": "Hero Image Fade",
+  "category": "animations",
+  "subcategory": "fade-effects",
+  "description": "CSS animation: Hero Image Fade",
+  "css": ".hero-image {\n  opacity: 0;\n}\n\n.hero-image.loaded {\n  animation: herofade 1s forwards;\n}\n\n@keyframes herofade {\n  to {\n    opacity: 1;\n  }\n}",
+  "html": "",
+  "tags": [
+    "animation",
+    "fade-effects"
+  ],
+  "screenshots": null
+}

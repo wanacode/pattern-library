@@ -1,0 +1,17 @@
+{
+  "id": "testimonial-block-with-attribution",
+  "name": "Testimonial Block with Attribution",
+  "category": "layouts",
+  "subcategory": "cards",
+  "description": "Testimonial Block with Attribution pattern",
+  "html": "<section>\n  <div class=\"grid grid-cols-1 md:grid-cols-12 gap-8 px-6 xl:px-20 py-20 md:py-32\">\n    <div class=\"md:col-span-3 mb-8 md:mb-0\">\n      <p class=\"font-bold\">Person Name</p>\n      <p class=\"text-sm\">Organisation</p>\n      <img src=\"https://placehold.co/120x48?text=Logo\" alt=\"Company\" class=\"h-8 w-auto mt-4 opacity-70\" />\n    </div>\n    <div class=\"md:col-span-9 md:col-start-4\">\n      <blockquote class=\"text-lg md:text-xl\">\n        Testimonial quote text\n      </blockquote>\n    </div>\n  </div>\n</section>",
+  "tags": [
+    "cards",
+    "layouts"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/layouts/cards/testimonial-block-with-attribution-mobile.png",
+    "tablet": "screenshots/layouts/cards/testimonial-block-with-attribution-tablet.png",
+    "desktop": "screenshots/layouts/cards/testimonial-block-with-attribution-desktop.png"
+  }
+}

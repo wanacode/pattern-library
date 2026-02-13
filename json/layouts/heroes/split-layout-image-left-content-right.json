@@ -1,0 +1,17 @@
+{
+  "id": "split-layout-image-left-content-right",
+  "name": "Split Layout Image Left Content Right",
+  "category": "layouts",
+  "subcategory": "heroes",
+  "description": "Split Layout Image Left Content Right pattern",
+  "html": "<section class=\"min-h-[80vh] flex items-center\">\n  <div class=\"grid grid-cols-1 md:grid-cols-12 gap-8 px-6 xl:px-20 w-full py-20\">\n    <div class=\"md:col-span-6\">\n      <img src=\"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&fit=crop\"\n           srcset=\"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=640&fit=crop 640w, https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&fit=crop 1200w\"\n           sizes=\"(max-width: 768px) 100vw, 50vw\"\n           alt=\"Ocean sunset\"\n           class=\"w-full h-auto rounded-lg\"\n           loading=\"lazy\" />\n    </div>\n    <div class=\"md:col-span-5 md:col-start-8 flex flex-col justify-center\">\n      <span class=\"text-lg font-semibold mb-4\">Pre-heading</span>\n      <h1 class=\"text-5xl font-bold mb-6\">Heading</h1>\n      <p class=\"text-base\">Description text goes here</p>\n    </div>\n  </div>\n</section>",
+  "tags": [
+    "heroes",
+    "layouts"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/layouts/heroes/split-layout-image-left-content-right-mobile.png",
+    "tablet": "screenshots/layouts/heroes/split-layout-image-left-content-right-tablet.png",
+    "desktop": "screenshots/layouts/heroes/split-layout-image-left-content-right-desktop.png"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "staff-bio-accordion",
+  "name": "Staff Bio Accordion",
+  "category": "components",
+  "subcategory": "accordions",
+  "description": "Staff Bio Accordion pattern",
+  "html": "<div class=\"accordion\">\n  <button class=\"accordion-button w-full text-left py-4 border-b group\">\n    <div class=\"flex items-center justify-between\">\n      <div class=\"flex items-center gap-4\">\n        <img src=\"https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=100&fit=crop\" alt=\"\" class=\"w-12 h-12 rounded-full object-cover\" />\n        <div>\n          <h3 class=\"font-bold text-lg\">Member Name</h3>\n          <p class=\"text-sm\">Job Title</p>\n        </div>\n      </div>\n      <span class=\"text-2xl transition-transform group-[.active]:rotate-45\">+</span>\n    </div>\n  </button>\n  <div class=\"accordion-content overflow-hidden max-h-0 transition-[max-height] duration-500\">\n    <div class=\"py-6 prose\">\n      <p>Biography content goes here</p>\n    </div>\n  </div>\n</div>",
+  "tags": [
+    "accordions",
+    "components"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/components/accordions/staff-bio-accordion-mobile.png",
+    "tablet": "screenshots/components/accordions/staff-bio-accordion-tablet.png",
+    "desktop": "screenshots/components/accordions/staff-bio-accordion-desktop.png"
+  }
+}

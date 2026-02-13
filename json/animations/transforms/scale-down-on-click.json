@@ -1,0 +1,14 @@
+{
+  "id": "scale-down-on-click",
+  "name": "Scale Down on Click",
+  "category": "animations",
+  "subcategory": "transforms",
+  "description": "CSS animation: Scale Down on Click",
+  "css": ".active-scale:active {\n  transform: scale(0.98);\n}",
+  "html": "",
+  "tags": [
+    "animation",
+    "transforms"
+  ],
+  "screenshots": null
+}

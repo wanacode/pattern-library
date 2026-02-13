@@ -1,0 +1,14 @@
+{
+  "id": "smooth-transition",
+  "name": "Smooth Transition",
+  "category": "animations",
+  "subcategory": "transitions",
+  "description": "CSS animation: Smooth Transition",
+  "css": ".transition-smooth {\n  transition: all 0.3s ease;\n}",
+  "html": "",
+  "tags": [
+    "animation",
+    "transitions"
+  ],
+  "screenshots": null
+}

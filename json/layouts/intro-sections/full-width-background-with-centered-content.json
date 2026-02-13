@@ -1,0 +1,17 @@
+{
+  "id": "full-width-background-with-centered-content",
+  "name": "Full Width Background with Centered Content",
+  "category": "layouts",
+  "subcategory": "intro-sections",
+  "description": "Full Width Background with Centered Content pattern",
+  "html": "<section class=\"py-24 md:py-40\">\n  <div class=\"px-6 xl:px-20\">\n    <div class=\"md:col-span-8 md:col-start-3 text-center\">\n      <h2 class=\"text-3xl font-bold mb-6\">Section Heading</h2>\n      <p class=\"max-w-2xl mx-auto\">Description text</p>\n    </div>\n  </div>\n</section>",
+  "tags": [
+    "intro-sections",
+    "layouts"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/layouts/intro-sections/full-width-background-with-centered-content-mobile.png",
+    "tablet": "screenshots/layouts/intro-sections/full-width-background-with-centered-content-tablet.png",
+    "desktop": "screenshots/layouts/intro-sections/full-width-background-with-centered-content-desktop.png"
+  }
+}

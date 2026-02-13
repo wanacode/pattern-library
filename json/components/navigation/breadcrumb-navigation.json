@@ -1,0 +1,17 @@
+{
+  "id": "breadcrumb-navigation",
+  "name": "Breadcrumb Navigation",
+  "category": "components",
+  "subcategory": "navigation",
+  "description": "Breadcrumb Navigation pattern",
+  "html": "<nav aria-label=\"Breadcrumb\" class=\"py-4\">\n  <ol class=\"flex flex-wrap items-center text-sm\">\n    <li>\n      <a href=\"#\" class=\"hover:underline\">Home</a>\n    </li>\n    <li class=\"mx-2\">\n      <svg class=\"w-4 h-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n        <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 5l7 7-7 7\"/>\n      </svg>\n    </li>\n    <li>\n      <a href=\"#\" class=\"hover:underline\">Parent Page</a>\n    </li>\n    <li class=\"mx-2\">\n      <svg class=\"w-4 h-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n        <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 5l7 7-7 7\"/>\n      </svg>\n    </li>\n    <li aria-current=\"page\">Current Page</li>\n  </ol>\n</nav>",
+  "tags": [
+    "navigation",
+    "components"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/components/navigation/breadcrumb-navigation-mobile.png",
+    "tablet": "screenshots/components/navigation/breadcrumb-navigation-tablet.png",
+    "desktop": "screenshots/components/navigation/breadcrumb-navigation-desktop.png"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mobile-menu-modal",
+  "name": "Mobile Menu Modal",
+  "category": "components",
+  "subcategory": "navigation",
+  "description": "**Dependencies:** MicroModal.js",
+  "html": "<div class=\"modal\" aria-hidden=\"true\">\n  <div class=\"modal-overlay\" tabindex=\"-1\">\n    <div class=\"modal-container w-full h-full p-6\" role=\"dialog\" aria-modal=\"true\">\n      <button class=\"absolute top-6 right-6 p-2\" aria-label=\"Close menu\">\n        <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\">\n          <path d=\"M18 6L6 18M6 6l12 12\" stroke-width=\"2\"/>\n        </svg>\n      </button>\n      \n      <nav class=\"mt-20\">\n        <ul class=\"space-y-6\">\n          <li><a href=\"#\" class=\"text-xl font-semibold\">Link 1</a></li>\n          <li><a href=\"#\" class=\"text-xl font-semibold\">Link 2</a></li>\n          <li><a href=\"#\" class=\"text-xl font-semibold\">Link 3</a></li>\n          <li><a href=\"#\" class=\"text-xl font-semibold\">Contact</a></li>\n        </ul>\n      </nav>\n    </div>\n  </div>\n</div>",
+  "tags": [
+    "navigation",
+    "components"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/components/navigation/mobile-menu-modal-mobile.png",
+    "tablet": "screenshots/components/navigation/mobile-menu-modal-tablet.png",
+    "desktop": "screenshots/components/navigation/mobile-menu-modal-desktop.png"
+  }
+}

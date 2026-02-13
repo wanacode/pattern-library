@@ -1,0 +1,17 @@
+{
+  "id": "service-category-card",
+  "name": "Service Category Card",
+  "category": "layouts",
+  "subcategory": "cards",
+  "description": "Service Category Card pattern",
+  "html": "<article class=\"group duration-300 hover:opacity-70\">\n  <a href=\"#\" class=\"block\">\n    <div class=\"overflow-hidden aspect-[4/3] rounded-lg\">\n      <img src=\"https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=640&fit=crop\"\n           alt=\"Service\"\n           class=\"w-full h-full object-cover transition duration-300 group-hover:scale-[1.02]\"\n           loading=\"lazy\" />\n    </div>\n    <h3 class=\"font-bold mt-4 text-lg\">Service Name</h3>\n    <p class=\"text-sm mt-1 line-clamp-2\">Service description</p>\n  </a>\n</article>",
+  "tags": [
+    "cards",
+    "layouts"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/layouts/cards/service-category-card-mobile.png",
+    "tablet": "screenshots/layouts/cards/service-category-card-tablet.png",
+    "desktop": "screenshots/layouts/cards/service-category-card-desktop.png"
+  }
+}

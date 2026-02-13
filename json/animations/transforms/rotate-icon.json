@@ -1,0 +1,14 @@
+{
+  "id": "rotate-icon",
+  "name": "Rotate Icon",
+  "category": "animations",
+  "subcategory": "transforms",
+  "description": "CSS animation: Rotate Icon",
+  "css": ".rotate-45 {\n  transform: rotate(45deg);\n}\n\n.rotate-180 {\n  transform: rotate(180deg);\n}\n\n.transition-rotate {\n  transition: transform 0.3s ease;\n}",
+  "html": "",
+  "tags": [
+    "animation",
+    "transforms"
+  ],
+  "screenshots": null
+}

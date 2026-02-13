@@ -1,0 +1,17 @@
+{
+  "id": "minimal-text-only",
+  "name": "Minimal Text Only",
+  "category": "layouts",
+  "subcategory": "heroes",
+  "description": "Minimal Text Only pattern",
+  "html": "<section class=\"min-h-[60vh] flex items-end pb-20\">\n  <div class=\"px-6 xl:px-20 w-full\">\n    <div class=\"md:col-span-10\">\n      <h1 class=\"text-5xl font-bold\">Page Title</h1>\n    </div>\n  </div>\n</section>",
+  "tags": [
+    "heroes",
+    "layouts"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/layouts/heroes/minimal-text-only-mobile.png",
+    "tablet": "screenshots/layouts/heroes/minimal-text-only-tablet.png",
+    "desktop": "screenshots/layouts/heroes/minimal-text-only-desktop.png"
+  }
+}

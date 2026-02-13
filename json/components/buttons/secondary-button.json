@@ -1,0 +1,17 @@
+{
+  "id": "secondary-button",
+  "name": "Secondary Button",
+  "category": "components",
+  "subcategory": "buttons",
+  "description": "Secondary Button pattern",
+  "html": "<a href=\"#\" class=\"inline-block rounded-full border-2 px-8 py-3 font-semibold transition-colors\">\n  Button Text\n</a>",
+  "tags": [
+    "buttons",
+    "components"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/components/buttons/secondary-button-mobile.png",
+    "tablet": "screenshots/components/buttons/secondary-button-tablet.png",
+    "desktop": "screenshots/components/buttons/secondary-button-desktop.png"
+  }
+}

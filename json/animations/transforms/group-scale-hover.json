@@ -1,0 +1,14 @@
+{
+  "id": "group-scale-hover",
+  "name": "Group Scale Hover",
+  "category": "animations",
+  "subcategory": "transforms",
+  "description": "CSS animation: Group Scale Hover",
+  "css": ".group:hover .group-hover-scale {\n  transform: scale(1.02);\n}\n\n.group-hover-scale {\n  transition: transform 0.3s ease-out;\n}",
+  "html": "<article class=\"group\">\n  <img src=\"image.jpg\" class=\"group-hover-scale\" />\n</article>",
+  "tags": [
+    "animation",
+    "transforms"
+  ],
+  "screenshots": null
+}

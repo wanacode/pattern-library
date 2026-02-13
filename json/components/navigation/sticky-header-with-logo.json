@@ -1,0 +1,17 @@
+{
+  "id": "sticky-header-with-logo",
+  "name": "Sticky Header with Logo",
+  "category": "components",
+  "subcategory": "navigation",
+  "description": "Sticky Header with Logo pattern",
+  "html": "<header class=\"fixed z-50 w-full transition-colors top-0\">\n  <div class=\"flex items-center justify-between px-6 xl:px-20 h-20\">\n    <a href=\"#\" class=\"relative z-10\">\n      <img src=\"https://placehold.co/200x48?text=Logo\" alt=\"Site name\" class=\"h-10 w-auto\" />\n    </a>\n    \n    <nav class=\"hidden lg:block\">\n      <ul class=\"flex space-x-12\">\n        <li><a href=\"#\" class=\"text-lg font-semibold transition-colors\">Link 1</a></li>\n        <li><a href=\"#\" class=\"text-lg font-semibold transition-colors\">Link 2</a></li>\n        <li><a href=\"#\" class=\"text-lg font-semibold transition-colors\">Link 3</a></li>\n      </ul>\n    </nav>\n    \n    <a href=\"#\" class=\"hidden lg:inline-block rounded-full px-6 py-2 font-semibold transition-colors\">\n      Contact\n    </a>\n    \n    <button class=\"lg:hidden relative z-10 p-2\" aria-label=\"Open menu\" aria-expanded=\"false\">\n      <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\">\n        <rect width=\"24\" height=\"2\"/>\n        <rect y=\"7\" width=\"24\" height=\"2\"/>\n        <rect y=\"14\" width=\"24\" height=\"2\"/>\n      </svg>\n    </button>\n  </div>\n</header>",
+  "tags": [
+    "navigation",
+    "components"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/components/navigation/sticky-header-with-logo-mobile.png",
+    "tablet": "screenshots/components/navigation/sticky-header-with-logo-tablet.png",
+    "desktop": "screenshots/components/navigation/sticky-header-with-logo-desktop.png"
+  }
+}

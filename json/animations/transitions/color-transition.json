@@ -1,0 +1,14 @@
+{
+  "id": "color-transition",
+  "name": "Color Transition",
+  "category": "animations",
+  "subcategory": "transitions",
+  "description": "CSS animation: Color Transition",
+  "css": ".transition-color {\n  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;\n}",
+  "html": "",
+  "tags": [
+    "animation",
+    "transitions"
+  ],
+  "screenshots": null
+}

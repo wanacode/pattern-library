@@ -1,0 +1,14 @@
+{
+  "id": "fade-in-up",
+  "name": "Fade In Up",
+  "category": "animations",
+  "subcategory": "fade-effects",
+  "description": "CSS animation: Fade In Up",
+  "css": ".animate-fade-in-up {\n  opacity: 0;\n  transform: translateY(20px);\n  animation: fadeinup 0.6s forwards;\n}\n\n@keyframes fadeinup {\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}",
+  "html": "",
+  "tags": [
+    "animation",
+    "fade-effects"
+  ],
+  "screenshots": null
+}

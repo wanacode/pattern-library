@@ -1,0 +1,17 @@
+{
+  "id": "image-gallery-slider-with-pagination",
+  "name": "Image Gallery Slider with Pagination",
+  "category": "layouts",
+  "subcategory": "sliders",
+  "description": "**Dependencies:** Splide.js v4.x, Splide CSS",
+  "html": "<div id=\"gallery-slider\" class=\"splide\">\n  <div class=\"splide__track\">\n    <ul class=\"splide__list\">\n      <li class=\"splide__slide\">\n        <img src=\"https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&fit=crop\" alt=\"Image 1\" class=\"w-full h-auto\" />\n      </li>\n      <li class=\"splide__slide\">\n        <img src=\"https://images.unsplash.com/photo-1448375240586-dfd8d395ea6c?w=1200&fit=crop\" alt=\"Image 2\" class=\"w-full h-auto\" />\n      </li>\n      <li class=\"splide__slide\">\n        <img src=\"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&fit=crop\" alt=\"Image 3\" class=\"w-full h-auto\" />\n      </li>\n    </ul>\n  </div>\n</div>",
+  "tags": [
+    "sliders",
+    "layouts"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/layouts/sliders/image-gallery-slider-with-pagination-mobile.png",
+    "tablet": "screenshots/layouts/sliders/image-gallery-slider-with-pagination-tablet.png",
+    "desktop": "screenshots/layouts/sliders/image-gallery-slider-with-pagination-desktop.png"
+  }
+}

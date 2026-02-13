@@ -1,0 +1,17 @@
+{
+  "id": "testimonial-slider",
+  "name": "Testimonial Slider",
+  "category": "layouts",
+  "subcategory": "sliders",
+  "description": "**Dependencies:** Splide.js v4.x, Splide CSS",
+  "html": "<div id=\"testimonial-slider\" class=\"splide py-20\">\n  <div class=\"splide__track\">\n    <ul class=\"splide__list\">\n      <li class=\"splide__slide\">\n        <div class=\"grid grid-cols-1 md:grid-cols-12 gap-8 px-6 xl:px-20\">\n          <div class=\"md:col-span-3\">\n            <p class=\"font-bold\">Name 1</p>\n            <p class=\"text-sm\">Organisation</p>\n          </div>\n          <div class=\"md:col-span-9\">\n            <blockquote class=\"text-xl md:text-2xl\">Quote text</blockquote>\n          </div>\n        </div>\n      </li>\n      <li class=\"splide__slide\">\n        <div class=\"grid grid-cols-1 md:grid-cols-12 gap-8 px-6 xl:px-20\">\n          <div class=\"md:col-span-3\">\n            <p class=\"font-bold\">Name 2</p>\n            <p class=\"text-sm\">Organisation</p>\n          </div>\n          <div class=\"md:col-span-9\">\n            <blockquote class=\"text-xl md:text-2xl\">Quote text</blockquote>\n          </div>\n        </div>\n      </li>\n    </ul>\n  </div>\n</div>",
+  "tags": [
+    "sliders",
+    "layouts"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/layouts/sliders/testimonial-slider-mobile.png",
+    "tablet": "screenshots/layouts/sliders/testimonial-slider-tablet.png",
+    "desktop": "screenshots/layouts/sliders/testimonial-slider-desktop.png"
+  }
+}

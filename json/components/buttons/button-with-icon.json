@@ -1,0 +1,17 @@
+{
+  "id": "button-with-icon",
+  "name": "Button with Icon",
+  "category": "components",
+  "subcategory": "buttons",
+  "description": "Button with Icon pattern",
+  "html": "<a href=\"#\" class=\"inline-flex items-center gap-2 rounded-full border-2 px-8 py-3 font-semibold transition-colors group\">\n  Button Text\n  <svg class=\"w-4 h-4 transition-transform group-hover:translate-x-1\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 8l4 4m0 0l-4 4m4-4H3\"/>\n  </svg>\n</a>",
+  "tags": [
+    "buttons",
+    "components"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/components/buttons/button-with-icon-mobile.png",
+    "tablet": "screenshots/components/buttons/button-with-icon-tablet.png",
+    "desktop": "screenshots/components/buttons/button-with-icon-desktop.png"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "intro-with-logos-grid",
+  "name": "Intro with Logos Grid",
+  "category": "layouts",
+  "subcategory": "intro-sections",
+  "description": "Intro with Logos Grid pattern",
+  "html": "<section class=\"py-20 md:py-32\">\n  <div class=\"grid grid-cols-1 md:grid-cols-12 gap-8 px-6 xl:px-20\">\n    <div class=\"md:col-span-6 mb-12\">\n      <p class=\"text-xl md:text-2xl leading-relaxed\">Intro text</p>\n    </div>\n    <div class=\"md:col-span-6\">\n      <div class=\"flex flex-wrap items-center gap-8\">\n        <img src=\"https://placehold.co/120x48?text=Logo+1\" alt=\"Company 1\" class=\"h-12 w-auto opacity-70\" />\n        <img src=\"https://placehold.co/120x48?text=Logo+2\" alt=\"Company 2\" class=\"h-12 w-auto opacity-70\" />\n        <img src=\"https://placehold.co/120x48?text=Logo+3\" alt=\"Company 3\" class=\"h-12 w-auto opacity-70\" />\n      </div>\n    </div>\n  </div>\n</section>",
+  "tags": [
+    "intro-sections",
+    "layouts"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/layouts/intro-sections/intro-with-logos-grid-mobile.png",
+    "tablet": "screenshots/layouts/intro-sections/intro-with-logos-grid-tablet.png",
+    "desktop": "screenshots/layouts/intro-sections/intro-with-logos-grid-desktop.png"
+  }
+}

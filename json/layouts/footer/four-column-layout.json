@@ -1,0 +1,17 @@
+{
+  "id": "four-column-layout",
+  "name": "Four Column Layout",
+  "category": "layouts",
+  "subcategory": "footer",
+  "description": "Four Column Layout pattern",
+  "html": "<footer>\n  <div class=\"grid grid-cols-1 md:grid-cols-4 gap-8 px-6 xl:px-20 py-16 md:py-24\">\n    <!-- Logo Column -->\n    <div class=\"mb-8 md:mb-0\">\n      <a href=\"#\">\n        <img src=\"https://placehold.co/200x48?text=Logo\" alt=\"Site name\" class=\"h-12 w-auto\" />\n      </a>\n    </div>\n    \n    <!-- Menu Column -->\n    <div class=\"mb-8 md:mb-0\">\n      <nav>\n        <ul class=\"space-y-3\">\n          <li><a href=\"#\" class=\"underline transition-opacity hover:opacity-70\">Link 1</a></li>\n          <li><a href=\"#\" class=\"underline transition-opacity hover:opacity-70\">Link 2</a></li>\n          <li><a href=\"#\" class=\"underline transition-opacity hover:opacity-70\">Link 3</a></li>\n          <li><a href=\"#\" class=\"underline transition-opacity hover:opacity-70\">Link 4</a></li>\n        </ul>\n      </nav>\n    </div>\n    \n    <!-- Contact Column -->\n    <div class=\"mb-8 md:mb-0\">\n      <p class=\"text-sm font-bold uppercase tracking-wide mb-4\">Contact</p>\n      <address class=\"not-italic space-y-2\">\n        <p>Street address</p>\n        <p>City state postcode</p>\n        <p class=\"mt-4\">\n          <a href=\"tel:phone\" class=\"hover:underline\">Phone number</a>\n        </p>\n        <p>\n          <a href=\"mailto:email\" class=\"hover:underline\">Email address</a>\n        </p>\n      </address>\n    </div>\n    \n    <!-- Connect Column -->\n    <div>\n      <p class=\"text-sm font-bold uppercase tracking-wide mb-4\">Connect</p>\n      <div class=\"flex space-x-4\">\n        <a href=\"#\" class=\"hover:opacity-70 transition-opacity\" aria-label=\"LinkedIn\">\n          <svg class=\"w-6 h-6\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n            <path d=\"M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z\"/>\n          </svg>\n        </a>\n        <a href=\"#\" class=\"hover:opacity-70 transition-opacity\" aria-label=\"Twitter\">\n          <svg class=\"w-6 h-6\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n            <path d=\"M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z\"/>\n          </svg>\n        </a>\n      </div>\n    </div>\n  </div>\n  \n  <!-- Bottom Bar -->\n  <div class=\"border-t\">\n    <div class=\"px-6 xl:px-20 py-6\">\n      <div class=\"flex flex-col md:flex-row justify-between items-center text-sm\">\n        <p>Copyright text</p>\n        <a href=\"#\" class=\"hover:underline mt-2 md:mt-0\">Privacy Policy</a>\n      </div>\n    </div>\n  </div>\n</footer>",
+  "tags": [
+    "footer",
+    "layouts"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/layouts/footer/four-column-layout-mobile.png",
+    "tablet": "screenshots/layouts/footer/four-column-layout-tablet.png",
+    "desktop": "screenshots/layouts/footer/four-column-layout-desktop.png"
+  }
+}

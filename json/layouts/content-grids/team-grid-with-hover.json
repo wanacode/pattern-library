@@ -1,0 +1,17 @@
+{
+  "id": "team-grid-with-hover",
+  "name": "Team Grid with Hover",
+  "category": "layouts",
+  "subcategory": "content-grids",
+  "description": "Team Grid with Hover pattern",
+  "html": "<section class=\"py-20 md:py-32\">\n  <div class=\"grid grid-cols-2 md:grid-cols-4 gap-8 px-6 xl:px-20\">\n    <article class=\"group\">\n      <div class=\"aspect-[3/4] overflow-hidden rounded-lg mb-4\">\n        <img src=\"https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=640&fit=crop\"\n             alt=\"Team member\"\n             class=\"w-full h-full object-cover transition duration-300 group-hover:scale-[1.02]\" />\n      </div>\n      <h3 class=\"font-bold\">Member Name</h3>\n      <p class=\"text-sm\">Job Title</p>\n    </article>\n  </div>\n</section>",
+  "tags": [
+    "content-grids",
+    "layouts"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/layouts/content-grids/team-grid-with-hover-mobile.png",
+    "tablet": "screenshots/layouts/content-grids/team-grid-with-hover-tablet.png",
+    "desktop": "screenshots/layouts/content-grids/team-grid-with-hover-desktop.png"
+  }
+}

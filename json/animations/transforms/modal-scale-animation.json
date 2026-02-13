@@ -1,0 +1,14 @@
+{
+  "id": "modal-scale-animation",
+  "name": "Modal Scale Animation",
+  "category": "animations",
+  "subcategory": "transforms",
+  "description": "CSS animation: Modal Scale Animation",
+  "css": ".modal-enter {\n  opacity: 0;\n  transform: scale(0.95);\n  animation: modalenter 0.3s cubic-bezier(0.0, 0.0, 0.2, 1) forwards;\n}\n\n@keyframes modalenter {\n  to {\n    opacity: 1;\n    transform: scale(1);\n  }\n}\n\n.modal-exit {\n  opacity: 1;\n  transform: scale(1);\n  animation: modalexit 0.3s cubic-bezier(0.0, 0.0, 0.2, 1) forwards;\n}\n\n@keyframes modalexit {\n  to {\n    opacity: 0;\n    transform: scale(0.95);\n  }\n}",
+  "html": "",
+  "tags": [
+    "animation",
+    "transforms"
+  ],
+  "screenshots": null
+}

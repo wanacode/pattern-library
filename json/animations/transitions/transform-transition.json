@@ -1,0 +1,14 @@
+{
+  "id": "transform-transition",
+  "name": "Transform Transition",
+  "category": "animations",
+  "subcategory": "transitions",
+  "description": "CSS animation: Transform Transition",
+  "css": ".transition-transform {\n  transition: transform 0.3s ease-out;\n}",
+  "html": "",
+  "tags": [
+    "animation",
+    "transitions"
+  ],
+  "screenshots": null
+}

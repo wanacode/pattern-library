@@ -1,0 +1,17 @@
+{
+  "id": "case-studies-grid-four-column",
+  "name": "Case Studies Grid Four Column",
+  "category": "layouts",
+  "subcategory": "content-grids",
+  "description": "Case Studies Grid Four Column pattern",
+  "html": "<section class=\"py-20 md:py-32\">\n  <div class=\"grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-8 px-6 xl:px-20\">\n    <article class=\"group duration-300 hover:opacity-70\">\n      <a href=\"#\" class=\"block\">\n        <div class=\"overflow-hidden aspect-square rounded-lg\">\n          <img src=\"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=640&fit=crop\"\n               srcset=\"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=640&fit=crop 640w\"\n               sizes=\"(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw\"\n               alt=\"Case study\"\n               class=\"w-full h-full object-cover transition duration-300 group-hover:scale-[1.02]\"\n               loading=\"lazy\" />\n        </div>\n        <h3 class=\"font-bold mt-4\">Case Study Title</h3>\n        <p class=\"text-sm mt-1\">Category</p>\n      </a>\n    </article>\n  </div>\n</section>",
+  "tags": [
+    "content-grids",
+    "layouts"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/layouts/content-grids/case-studies-grid-four-column-mobile.png",
+    "tablet": "screenshots/layouts/content-grids/case-studies-grid-four-column-tablet.png",
+    "desktop": "screenshots/layouts/content-grids/case-studies-grid-four-column-desktop.png"
+  }
+}

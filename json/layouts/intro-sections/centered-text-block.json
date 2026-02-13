@@ -1,0 +1,17 @@
+{
+  "id": "centered-text-block",
+  "name": "Centered Text Block",
+  "category": "layouts",
+  "subcategory": "intro-sections",
+  "description": "Centered Text Block pattern",
+  "html": "<section class=\"py-20 md:py-32\">\n  <div class=\"px-6 xl:px-20\">\n    <div class=\"md:col-span-8 md:col-start-3 text-center\">\n      <p class=\"text-xl md:text-2xl leading-relaxed\">Intro text</p>\n      <div class=\"mt-8\">\n        <p>Description text</p>\n      </div>\n    </div>\n  </div>\n</section>",
+  "tags": [
+    "intro-sections",
+    "layouts"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/layouts/intro-sections/centered-text-block-mobile.png",
+    "tablet": "screenshots/layouts/intro-sections/centered-text-block-tablet.png",
+    "desktop": "screenshots/layouts/intro-sections/centered-text-block-desktop.png"
+  }
+}

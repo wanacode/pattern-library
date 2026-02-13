@@ -1,0 +1,14 @@
+{
+  "id": "opacity-hover",
+  "name": "Opacity Hover",
+  "category": "animations",
+  "subcategory": "hover-effects",
+  "description": "CSS animation: Opacity Hover",
+  "css": ".hover-opacity {\n  transition: opacity 0.3s ease;\n}\n\n.hover-opacity:hover {\n  opacity: 0.7;\n}",
+  "html": "",
+  "tags": [
+    "animation",
+    "hover-effects"
+  ],
+  "screenshots": null
+}

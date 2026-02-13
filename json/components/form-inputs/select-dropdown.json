@@ -1,0 +1,17 @@
+{
+  "id": "select-dropdown",
+  "name": "Select Dropdown",
+  "category": "components",
+  "subcategory": "form-inputs",
+  "description": "Select Dropdown pattern",
+  "html": "<div class=\"relative\">\n  <select id=\"field-id\"\n          name=\"field-name\"\n          class=\"block w-full px-4 py-3 border-0 focus:ring-0 focus:outline-none appearance-none cursor-pointer\">\n    <option value=\"\">Select an option</option>\n    <option value=\"value-1\">Option 1</option>\n    <option value=\"value-2\">Option 2</option>\n    <option value=\"value-3\">Option 3</option>\n  </select>\n  <svg class=\"absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 pointer-events-none\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 9l-7 7-7-7\"/>\n  </svg>\n</div>",
+  "tags": [
+    "form-inputs",
+    "components"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/components/form-inputs/select-dropdown-mobile.png",
+    "tablet": "screenshots/components/form-inputs/select-dropdown-tablet.png",
+    "desktop": "screenshots/components/form-inputs/select-dropdown-desktop.png"
+  }
+}

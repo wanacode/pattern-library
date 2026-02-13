@@ -1,0 +1,14 @@
+{
+  "id": "scale-hover",
+  "name": "Scale Hover",
+  "category": "animations",
+  "subcategory": "transforms",
+  "description": "CSS animation: Scale Hover",
+  "css": ".hover-scale {\n  transition: transform 0.3s ease-out;\n}\n\n.hover-scale:hover {\n  transform: scale(1.02);\n}",
+  "html": "<img src=\"image.jpg\" class=\"hover-scale\" />",
+  "tags": [
+    "animation",
+    "transforms"
+  ],
+  "screenshots": null
+}

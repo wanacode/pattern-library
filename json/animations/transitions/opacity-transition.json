@@ -1,0 +1,14 @@
+{
+  "id": "opacity-transition",
+  "name": "Opacity Transition",
+  "category": "animations",
+  "subcategory": "transitions",
+  "description": "CSS animation: Opacity Transition",
+  "css": ".transition-opacity {\n  transition: opacity 0.3s ease;\n}",
+  "html": "",
+  "tags": [
+    "animation",
+    "transitions"
+  ],
+  "screenshots": null
+}

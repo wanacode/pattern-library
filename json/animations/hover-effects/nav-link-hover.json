@@ -1,0 +1,14 @@
+{
+  "id": "nav-link-hover",
+  "name": "Nav Link Hover",
+  "category": "animations",
+  "subcategory": "hover-effects",
+  "description": "CSS animation: Nav Link Hover",
+  "css": ".nav-link-hover {\n  transition: color 0.3s ease;\n}",
+  "html": "",
+  "tags": [
+    "animation",
+    "hover-effects"
+  ],
+  "screenshots": null
+}

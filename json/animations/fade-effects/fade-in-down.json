@@ -1,0 +1,14 @@
+{
+  "id": "fade-in-down",
+  "name": "Fade In Down",
+  "category": "animations",
+  "subcategory": "fade-effects",
+  "description": "CSS animation: Fade In Down",
+  "css": ".animate-fade-in-down {\n  opacity: 0;\n  transform: translateY(-20px);\n  animation: fadeindown 0.6s forwards;\n}\n\n@keyframes fadeindown {\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}",
+  "html": "",
+  "tags": [
+    "animation",
+    "fade-effects"
+  ],
+  "screenshots": null
+}

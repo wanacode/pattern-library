@@ -1,0 +1,14 @@
+{
+  "id": "image-grayscale-hover",
+  "name": "Image Grayscale Hover",
+  "category": "animations",
+  "subcategory": "hover-effects",
+  "description": "CSS animation: Image Grayscale Hover",
+  "css": ".hover-grayscale {\n  filter: grayscale(100%);\n  transition: filter 0.3s ease;\n}\n\n.hover-grayscale:hover {\n  filter: grayscale(0%);\n}",
+  "html": "",
+  "tags": [
+    "animation",
+    "hover-effects"
+  ],
+  "screenshots": null
+}

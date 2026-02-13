@@ -1,0 +1,17 @@
+{
+  "id": "contact-button",
+  "name": "Contact Button",
+  "category": "components",
+  "subcategory": "buttons",
+  "description": "Contact Button pattern",
+  "html": "<a href=\"#\" class=\"rounded-full px-6 py-2 font-semibold transition-colors\">\n  Contact\n</a>",
+  "tags": [
+    "buttons",
+    "components"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/components/buttons/contact-button-mobile.png",
+    "tablet": "screenshots/components/buttons/contact-button-tablet.png",
+    "desktop": "screenshots/components/buttons/contact-button-desktop.png"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "services-three-column-grid",
+  "name": "Services Three Column Grid",
+  "category": "layouts",
+  "subcategory": "content-grids",
+  "description": "Services Three Column Grid pattern",
+  "html": "<section class=\"py-20 md:py-32\">\n  <div class=\"grid grid-cols-1 md:grid-cols-3 gap-x-8 px-6 xl:px-20\">\n    <article class=\"border-t py-6\">\n      <h3 class=\"text-2xl font-bold\">Service Title</h3>\n      <p class=\"mt-4\">Service description</p>\n      <a href=\"#\" class=\"inline-flex items-center font-semibold mt-4 group\">\n        Learn more\n        <svg class=\"w-4 h-4 ml-2 transition-transform group-hover:translate-x-1\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 8l4 4m0 0l-4 4m4-4H3\"/>\n        </svg>\n      </a>\n    </article>\n  </div>\n</section>",
+  "tags": [
+    "content-grids",
+    "layouts"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/layouts/content-grids/services-three-column-grid-mobile.png",
+    "tablet": "screenshots/layouts/content-grids/services-three-column-grid-tablet.png",
+    "desktop": "screenshots/layouts/content-grids/services-three-column-grid-desktop.png"
+  }
+}

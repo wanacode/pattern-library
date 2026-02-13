@@ -1,0 +1,14 @@
+{
+  "id": "duration-utilities",
+  "name": "Duration Utilities",
+  "category": "animations",
+  "subcategory": "transitions",
+  "description": "CSS animation: Duration Utilities",
+  "css": ".duration-150 { transition-duration: 150ms; }\n.duration-200 { transition-duration: 200ms; }\n.duration-300 { transition-duration: 300ms; }\n.duration-500 { transition-duration: 500ms; }\n.duration-700 { transition-duration: 700ms; }\n.duration-1000 { transition-duration: 1000ms; }",
+  "html": "",
+  "tags": [
+    "animation",
+    "transitions"
+  ],
+  "screenshots": null
+}

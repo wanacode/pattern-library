@@ -1,0 +1,14 @@
+{
+  "id": "link-underline-hover",
+  "name": "Link Underline Hover",
+  "category": "animations",
+  "subcategory": "hover-effects",
+  "description": "CSS animation: Link Underline Hover",
+  "css": ".link-underline {\n  text-decoration: underline;\n  transition: opacity 0.3s ease;\n}\n\n.link-underline:hover {\n  opacity: 0.7;\n}",
+  "html": "",
+  "tags": [
+    "animation",
+    "hover-effects"
+  ],
+  "screenshots": null
+}

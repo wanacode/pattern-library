@@ -1,0 +1,17 @@
+{
+  "id": "logo-carousel-with-splide",
+  "name": "Logo Carousel with Splide",
+  "category": "layouts",
+  "subcategory": "sliders",
+  "description": "**Dependencies:** Splide.js v4.x, Splide CSS",
+  "html": "<div id=\"logo-slider\" class=\"splide py-16\">\n  <div class=\"splide__track\">\n    <ul class=\"splide__list\">\n      <li class=\"splide__slide flex items-center justify-center px-8\">\n        <img src=\"https://placehold.co/120x48?text=Logo+1\" alt=\"Client 1\" class=\"h-10 w-auto opacity-60 hover:opacity-100 transition-opacity\" />\n      </li>\n      <li class=\"splide__slide flex items-center justify-center px-8\">\n        <img src=\"https://placehold.co/120x48?text=Logo+2\" alt=\"Client 2\" class=\"h-10 w-auto opacity-60 hover:opacity-100 transition-opacity\" />\n      </li>\n      <li class=\"splide__slide flex items-center justify-center px-8\">\n        <img src=\"https://placehold.co/120x48?text=Logo+3\" alt=\"Client 3\" class=\"h-10 w-auto opacity-60 hover:opacity-100 transition-opacity\" />\n      </li>\n    </ul>\n  </div>\n</div>",
+  "tags": [
+    "sliders",
+    "layouts"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/layouts/sliders/logo-carousel-with-splide-mobile.png",
+    "tablet": "screenshots/layouts/sliders/logo-carousel-with-splide-tablet.png",
+    "desktop": "screenshots/layouts/sliders/logo-carousel-with-splide-desktop.png"
+  }
+}

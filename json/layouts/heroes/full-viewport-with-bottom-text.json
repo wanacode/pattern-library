@@ -1,0 +1,17 @@
+{
+  "id": "full-viewport-with-bottom-text",
+  "name": "Full Viewport with Bottom Text",
+  "category": "layouts",
+  "subcategory": "heroes",
+  "description": "Full Viewport with Bottom Text pattern",
+  "html": "<div class=\"grid grid-cols-1 grid-rows-1 max-h-screen min-h-[420px]\">\n  <div class=\"col-start-1 row-start-1\">\n    <picture>\n      <source media=\"(max-width: 828px)\" srcset=\"https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=640&fit=crop 640w, https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=828&fit=crop 828w\" sizes=\"100vw\" />\n      <img src=\"https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1920&h=1080&fit=crop\"\n           srcset=\"https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=640&fit=crop 640w, https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1080&fit=crop 1080w, https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1920&fit=crop 1920w\"\n           sizes=\"100vw\"\n           alt=\"Mountain landscape\"\n           class=\"object-cover w-full h-full\"\n           loading=\"eager\" />\n    </picture>\n  </div>\n  <div class=\"z-10 col-start-1 row-start-1 flex items-end pb-16\">\n    <div class=\"px-6 xl:px-20\">\n      <span class=\"text-lg text-white font-semibold block mb-4\">Pre-heading</span>\n      <h1 class=\"text-5xl text-white font-bold\">Main Heading</h1>\n    </div>\n  </div>\n</div>",
+  "tags": [
+    "heroes",
+    "layouts"
+  ],
+  "screenshots": {
+    "mobile": "screenshots/layouts/heroes/full-viewport-with-bottom-text-mobile.png",
+    "tablet": "screenshots/layouts/heroes/full-viewport-with-bottom-text-tablet.png",
+    "desktop": "screenshots/layouts/heroes/full-viewport-with-bottom-text-desktop.png"
+  }
+}

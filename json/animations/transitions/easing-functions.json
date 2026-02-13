@@ -1,0 +1,14 @@
+{
+  "id": "easing-functions",
+  "name": "Easing Functions",
+  "category": "animations",
+  "subcategory": "transitions",
+  "description": "CSS animation: Easing Functions",
+  "css": ".ease-linear { transition-timing-function: linear; }\n.ease-in { transition-timing-function: ease-in; }\n.ease-out { transition-timing-function: ease-out; }\n.ease-in-out { transition-timing-function: ease-in-out; }",
+  "html": "",
+  "tags": [
+    "animation",
+    "transitions"
+  ],
+  "screenshots": null
+}
