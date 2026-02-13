@@ -8,7 +8,7 @@
     "viewer": "node scripts/build-viewer.js",
     "screenshots": "node scripts/generate-screenshots.js",
     "build": "pnpm run convert && pnpm run viewer && pnpm run build:docs",
-    "build:docs": "mkdir -p docs && cp -r viewer/* docs/ && cp -r screenshots docs/ && cp -r json docs/",
+    "build:docs": "mkdir -p docs && cp -r viewer/* docs/ && cp -r screenshots docs/ && cp -r json docs/ && touch docs/.nojekyll",
     "serve": "cd docs && python3 -m http.server 3000",
     "serve:viewer": "cd viewer && python3 -m http.server 3000",
     "deploy": "pnpm run build"
